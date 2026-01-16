@@ -1,0 +1,1554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance" />
+    <style name="ThemeOverlay" />
+    <style name="Widget" />
+
+    <style name="AlertDialog" />
+    <style name="Animation" />
+    <style name="Animation.AppCompat" />
+    <style name="Animation.Design" />
+    <style name="Animation.Material3" />
+    <style name="Animation.MaterialComponents" />
+    <style name="Base" />
+    <style name="Base.AlertDialog" />
+    <style name="Base.Animation" />
+    <style name="Base.Animation.AppCompat" />
+    <style name="Base.DialogWindowTitle" />
+    <style name="Base.DialogWindowTitleBackground" />
+    <style name="Base.MaterialAlertDialog" />
+    <style name="Base.MaterialAlertDialog.MaterialComponents" />
+    <style name="Base.MaterialAlertDialog.MaterialComponents.Title" />
+    <style name="Base.TextAppearance" />
+    <style name="Base.TextAppearance.AppCompat.Light" />
+    <style name="Base.TextAppearance.AppCompat.Light.Widget" />
+    <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu" />
+    <style name="Base.TextAppearance.AppCompat.Widget" />
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar" />
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode" />
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Borderless" />
+    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu" />
+    <style name="Base.TextAppearance.AppCompat.Widget.TextView" />
+    <style name="Base.TextAppearance.Widget" />
+    <style name="Base.TextAppearance.Widget.AppCompat" />
+    <style name="Base.TextAppearance.Widget.AppCompat.ExpandedMenu" />
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar" />
+    <style name="Base.Theme" />
+    <style name="Base.Theme.Material3" />
+    <style name="Base.ThemeOverlay" />
+    <style name="Base.ThemeOverlay.Material3" />
+    <style name="Base.ThemeOverlay.MaterialComponents" />
+    <style name="Base.ThemeOverlay.MaterialComponents.Light" />
+    <style name="Base.ThemeOverlay.MaterialComponents.Light.Dialog" />
+    <style name="Base.ThemeOverlay.MaterialComponents.Light.Dialog.Alert" />
+    <style name="Base.Widget" />
+    <style name="Base.Widget.Design" />
+    <style name="Base.Widget.Material3" />
+    <style name="Base.Widget.Material3.ActionBar" />
+    <style name="Base.Widget.Material3.CompoundButton" />
+    <style name="Base.Widget.Material3.Light" />
+    <style name="Base.Widget.Material3.Light.ActionBar" />
+    <style name="Base.Widget.Material3.MaterialCalendar" />
+    <style name="Base.Widget.MaterialComponents" />
+    <style name="Base.Widget.MaterialComponents.MaterialCalendar" />
+    <style name="MaterialAlertDialog" />
+    <style name="MaterialAlertDialog.Material3.Body" />
+    <style name="MaterialAlertDialog.Material3.Title" />
+    <style name="MaterialAlertDialog.MaterialComponents.Body" />
+    <style name="MaterialAlertDialog.MaterialComponents.Picker" />
+    <style name="MaterialAlertDialog.MaterialComponents.Picker.Date" />
+    <style name="MaterialAlertDialog.MaterialComponents.Title" />
+    <style name="Motion" />
+    <style name="Motion.Material3" />
+    <style name="Motion.Material3.Spring" />
+    <style name="Motion.Material3.Spring.Standard" />
+    <style name="Motion.Material3.Spring.Standard.Default" />
+    <style name="Motion.Material3.Spring.Standard.Fast" />
+    <style name="Motion.Material3.Spring.Standard.Slow" />
+    <style name="Platform" />
+    <style name="Platform.ThemeOverlay" />
+    <style name="Platform.V21" />
+    <style name="Platform.Widget" />
+    <style name="Platform.Widget.AppCompat" />
+    <style name="RtlOverlay" />
+    <style name="RtlOverlay.DialogWindowTitle" />
+    <style name="RtlOverlay.Widget" />
+    <style name="RtlOverlay.Widget.AppCompat" />
+    <style name="RtlOverlay.Widget.AppCompat.ActionBar" />
+    <style name="RtlOverlay.Widget.AppCompat.DialogTitle" />
+    <style name="RtlOverlay.Widget.AppCompat.Search" />
+    <style name="RtlOverlay.Widget.AppCompat.SearchView" />
+    <style name="RtlUnderlay" />
+    <style name="RtlUnderlay.Widget" />
+    <style name="RtlUnderlay.Widget.AppCompat" />
+    <style name="ShapeAppearance" />
+    <style name="ShapeAppearance.M3" />
+    <style name="ShapeAppearance.M3.Comp" />
+    <style name="ShapeAppearance.M3.Comp.Badge" />
+    <style name="ShapeAppearance.M3.Comp.Badge.Large" />
+    <style name="ShapeAppearance.M3.Comp.BottomAppBar" />
+    <style name="ShapeAppearance.M3.Comp.BottomAppBar.Container" />
+    <style name="ShapeAppearance.M3.Comp.Button" />
+    <style name="ShapeAppearance.M3.Comp.Button.Large" />
+    <style name="ShapeAppearance.M3.Comp.Button.Large.Container" />
+    <style name="ShapeAppearance.M3.Comp.Button.Large.Container.Shape" />
+    <style name="ShapeAppearance.M3.Comp.Button.Large.Selected" />
+    <style name="ShapeAppearance.M3.Comp.Button.Large.Selected.Container" />
+    <style name="ShapeAppearance.M3.Comp.Button.Large.Selected.Container.Shape" />
+    <style name="ShapeAppearance.M3.Comp.Button.Medium" />
+    <style name="ShapeAppearance.M3.Comp.Button.Medium.Container" />
+    <style name="ShapeAppearance.M3.Comp.Button.Medium.Container.Shape" />
+    <style name="ShapeAppearance.M3.Comp.Button.Medium.Selected" />
+    <style name="ShapeAppearance.M3.Comp.Button.Medium.Selected.Container" />
+    <style name="ShapeAppearance.M3.Comp.Button.Medium.Selected.Container.Shape" />
+    <style name="ShapeAppearance.M3.Comp.Button.Small" />
+    <style name="ShapeAppearance.M3.Comp.Button.Small.Container" />
+    <style name="ShapeAppearance.M3.Comp.Button.Small.Container.Shape" />
+    <style name="ShapeAppearance.M3.Comp.Button.Small.Selected" />
+    <style name="ShapeAppearance.M3.Comp.Button.Small.Selected.Container" />
+    <style name="ShapeAppearance.M3.Comp.Button.Small.Selected.Container.Shape" />
+    <style name="ShapeAppearance.M3.Comp.Button.Xlarge" />
+    <style name="ShapeAppearance.M3.Comp.Button.Xlarge.Container" />
+    <style name="ShapeAppearance.M3.Comp.Button.Xlarge.Container.Shape" />
+    <style name="ShapeAppearance.M3.Comp.Button.Xlarge.Selected" />
+    <style name="ShapeAppearance.M3.Comp.Button.Xlarge.Selected.Container" />
+    <style name="ShapeAppearance.M3.Comp.Button.Xlarge.Selected.Container.Shape" />
+    <style name="ShapeAppearance.M3.Comp.Button.Xsmall" />
+    <style name="ShapeAppearance.M3.Comp.Button.Xsmall.Container" />
+    <style name="ShapeAppearance.M3.Comp.Button.Xsmall.Container.Shape" />
+    <style name="ShapeAppearance.M3.Comp.Button.Xsmall.Selected" />
+    <style name="ShapeAppearance.M3.Comp.Button.Xsmall.Selected.Container" />
+    <style name="ShapeAppearance.M3.Comp.Button.Xsmall.Selected.Container.Shape" />
+    <style name="ShapeAppearance.M3.Comp.ButtonGroup" />
+    <style name="ShapeAppearance.M3.Comp.ButtonGroup.Connected" />
+    <style name="ShapeAppearance.M3.Comp.ButtonGroup.Connected.Small" />
+    <style name="ShapeAppearance.M3.Comp.ButtonGroup.Connected.Small.Container" />
+    <style name="ShapeAppearance.M3.Comp.DatePicker" />
+    <style name="ShapeAppearance.M3.Comp.DatePicker.Modal" />
+    <style name="ShapeAppearance.M3.Comp.DatePicker.Modal.Date" />
+    <style name="ShapeAppearance.M3.Comp.DatePicker.Modal.Date.Container" />
+    <style name="ShapeAppearance.M3.Comp.IconButton" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Large" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Large.Container" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Large.Container.Shape" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Large.Selected" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Large.Selected.Container" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Large.Selected.Container.Shape" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Medium" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Medium.Container" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Medium.Container.Shape" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Medium.Selected" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Medium.Selected.Container" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Medium.Selected.Container.Shape" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Small" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Small.Container" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Small.Container.Shape" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Small.Selected" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Small.Selected.Container" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Small.Selected.Container.Shape" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Xlarge" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Xlarge.Container" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Xlarge.Container.Shape" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Xlarge.Selected" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Xlarge.Selected.Container" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Xlarge.Selected.Container.Shape" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Xsmall" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Xsmall.Container" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Xsmall.Container.Shape" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Xsmall.Selected" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Xsmall.Selected.Container" />
+    <style name="ShapeAppearance.M3.Comp.IconButton.Xsmall.Selected.Container.Shape" />
+    <style name="ShapeAppearance.M3.Comp.NavBar" />
+    <style name="ShapeAppearance.M3.Comp.NavBar.Container" />
+    <style name="ShapeAppearance.M3.Comp.NavBar.Item" />
+    <style name="ShapeAppearance.M3.Comp.NavBar.Item.ActiveIndicator" />
+    <style name="ShapeAppearance.M3.Comp.NavRail" />
+    <style name="ShapeAppearance.M3.Comp.NavRail.Collapsed" />
+    <style name="ShapeAppearance.M3.Comp.NavRail.Collapsed.Container" />
+    <style name="ShapeAppearance.M3.Comp.NavRail.Expanded" />
+    <style name="ShapeAppearance.M3.Comp.NavRail.Expanded.Container" />
+    <style name="ShapeAppearance.M3.Comp.NavRail.Item" />
+    <style name="ShapeAppearance.M3.Comp.NavRail.Item.ActiveIndicator" />
+    <style name="ShapeAppearance.M3.Comp.NavigationDrawer" />
+    <style name="ShapeAppearance.M3.Comp.NavigationDrawer.ActiveIndicator" />
+    <style name="ShapeAppearance.M3.Comp.SearchBar" />
+    <style name="ShapeAppearance.M3.Comp.SearchBar.Avatar" />
+    <style name="ShapeAppearance.M3.Comp.SearchBar.Container" />
+    <style name="ShapeAppearance.M3.Comp.SearchView" />
+    <style name="ShapeAppearance.M3.Comp.SearchView.FullScreen" />
+    <style name="ShapeAppearance.M3.Comp.SearchView.FullScreen.Container" />
+    <style name="ShapeAppearance.M3.Comp.Sheet" />
+    <style name="ShapeAppearance.M3.Comp.Sheet.Side" />
+    <style name="ShapeAppearance.M3.Comp.Sheet.Side.Docked" />
+    <style name="ShapeAppearance.M3.Comp.Sheet.Side.Docked.Container" />
+    <style name="ShapeAppearance.M3.Comp.Switch" />
+    <style name="ShapeAppearance.M3.Comp.Switch.Handle" />
+    <style name="ShapeAppearance.M3.Comp.Switch.StateLayer" />
+    <style name="ShapeAppearance.M3.Comp.Switch.Track" />
+    <style name="ShapeAppearance.M3.Comp.Toolbar" />
+    <style name="ShapeAppearance.M3.Comp.Toolbar.Docked" />
+    <style name="ShapeAppearance.M3.Comp.Toolbar.Docked.Container" />
+    <style name="ShapeAppearance.M3.Comp.Toolbar.Floating" />
+    <style name="ShapeAppearance.M3.Comp.Toolbar.Floating.Container" />
+    <style name="ShapeAppearance.M3.Comp.Toolbar.Vibrant" />
+    <style name="ShapeAppearance.M3.Comp.Toolbar.Vibrant.Vibrant" />
+    <style name="ShapeAppearance.M3.Comp.Toolbar.Vibrant.Vibrant.Container" />
+    <style name="ShapeAppearance.M3.Sys" />
+    <style name="ShapeAppearance.M3.Sys.Shape" />
+    <style name="ShapeAppearance.M3.Sys.Shape.Corner" />
+    <style name="ShapeAppearance.Material3" />
+    <style name="ShapeAppearance.Material3.Corner" />
+    <style name="ShapeAppearance.Material3.NavigationBarView" />
+    <style name="ShapeAppearanceOverlay" />
+    <style name="ShapeAppearanceOverlay.Material3" />
+    <style name="ShapeAppearanceOverlay.Material3.Corner" />
+    <style name="ShapeAppearanceOverlay.Material3.NavigationView" />
+    <style name="ShapeAppearanceOverlay.MaterialAlertDialog" />
+    <style name="ShapeAppearanceOverlay.MaterialComponents" />
+    <style name="ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar" />
+    <style name="ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Window" />
+    <style name="ShapeAppearanceOverlay.MaterialComponents.TextInputLayout" />
+    <style name="TextAppearance.Compat" />
+    <style name="TextAppearance.Design" />
+    <style name="TextAppearance.Design.CollapsingToolbar" />
+    <style name="TextAppearance.Design.Snackbar" />
+    <style name="TextAppearance.M3" />
+    <style name="TextAppearance.M3.Sys" />
+    <style name="TextAppearance.M3.Sys.Typescale" />
+    <style name="TextAppearance.Widget" />
+    <style name="TextAppearance.Widget.AppCompat" />
+    <style name="TextAppearance.Widget.AppCompat.ExpandedMenu" />
+    <style name="TextAppearance.Widget.AppCompat.Toolbar" />
+    <style name="Theme" />
+    <style name="ThemeOverlay.Design" />
+    <style name="ThemeOverlay.Material3.DayNight" />
+    <style name="ThemeOverlay.Material3.DynamicColors" />
+    <style name="ThemeOverlay.Material3.ExtendedFloatingActionButton" />
+    <style name="ThemeOverlay.Material3.FloatingActionButton" />
+    <style name="ThemeOverlay.Material3.Light.Dialog" />
+    <style name="ThemeOverlay.Material3.Light.Dialog.Alert" />
+    <style name="ThemeOverlay.Material3.MaterialTimePicker.Display" />
+    <style name="ThemeOverlay.Material3.SplitButton" />
+    <style name="ThemeOverlay.Material3.SplitButton.IconButton" />
+    <style name="ThemeOverlay.Material3.Toolbar" />
+    <style name="ThemeOverlay.MaterialAlertDialog" />
+    <style name="ThemeOverlay.MaterialAlertDialog.Material3" />
+    <style name="ThemeOverlay.MaterialAlertDialog.Material3.Title" />
+    <style name="ThemeOverlay.MaterialComponents.BottomAppBar" />
+    <style name="ThemeOverlay.MaterialComponents.DayNight" />
+    <style name="ThemeOverlay.MaterialComponents.Light.Dialog" />
+    <style name="ThemeOverlay.MaterialComponents.Light.Dialog.Alert" />
+    <style name="ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker" />
+    <style name="ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date.Header" />
+    <style name="ThemeOverlay.MaterialComponents.Toolbar" />
+    <style name="ThemeOverlay.MaterialComponents.Toolbar.Popup" />
+    <style name="Widget.Compat" />
+    <style name="Widget.Design" />
+    <style name="Widget.Design.BottomSheet" />
+    <style name="Widget.Support" />
+
+    <style name="AlertDialog.AppCompat" parent="@style/Base.AlertDialog.AppCompat">
+    </style>
+    <style name="AlertDialog.AppCompat.Light" parent="@style/Base.AlertDialog.AppCompat.Light">
+    </style>
+    <style name="Animation.AppCompat.Dialog" parent="@style/Base.Animation.AppCompat.Dialog">
+    </style>
+    <style name="Animation.AppCompat.DropDownUp" parent="@style/Base.Animation.AppCompat.DropDownUp">
+    </style>
+    <style name="Animation.AppCompat.Tooltip" parent="@style/Base.Animation.AppCompat.Tooltip">
+    </style>
+    <style name="Animation.Design.BottomSheetDialog" parent="@style/Animation.AppCompat.Dialog">
+        <item name="android:windowEnterAnimation">@anim/design_bottom_sheet_slide_in</item>
+        <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
+    </style>
+    <style name="Animation.Material3.BottomSheetDialog" parent="@style/Animation.AppCompat.Dialog">
+    </style>
+    <style name="Animation.Material3.SideSheetDialog" parent="@style/Animation.AppCompat.Dialog">
+    </style>
+    <style name="Animation.Material3.SideSheetDialog.Left" parent="@style/Animation.Material3.SideSheetDialog">
+    </style>
+    <style name="Animation.Material3.SideSheetDialog.Right" parent="@style/Animation.Material3.SideSheetDialog">
+    </style>
+    <style name="Animation.MaterialComponents.BottomSheetDialog" parent="@style/Animation.AppCompat.Dialog">
+    </style>
+    <style name="AppTheme" parent="@style/Base.AppTheme">
+    </style>
+    <style name="Base.AlertDialog.AppCompat" parent="@android:style/Widget">
+        <item name="android:layout">@layout/abc_alert_dialog_material</item>
+        <item name="buttonIconDimen">@dimen/abc_alert_dialog_button_dimen</item>
+        <item name="listItemLayout">@layout/select_dialog_item_material</item>
+        <item name="listLayout">@layout/abc_select_dialog_material</item>
+        <item name="multiChoiceItemLayout">@layout/select_dialog_multichoice_material</item>
+        <item name="singleChoiceItemLayout">@layout/select_dialog_singlechoice_material</item>
+    </style>
+    <style name="Base.AlertDialog.AppCompat.Light" parent="@style/Base.AlertDialog.AppCompat">
+    </style>
+    <style name="Base.Animation.AppCompat.Dialog" parent="@android:style/Animation">
+    </style>
+    <style name="Base.Animation.AppCompat.DropDownUp" parent="@android:style/Animation">
+    </style>
+    <style name="Base.Animation.AppCompat.Tooltip" parent="@android:style/Animation">
+    </style>
+    <style name="Base.AppTheme" parent="@style/Theme.Material3.DayNight.NoActionBar">
+    </style>
+    <style name="Base.CardView" parent="@android:style/Widget">
+        <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
+        <item name="cardElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardMaxElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardPreventCornerOverlap">true</item>
+        <item name="cardUseCompatPadding">false</item>
+    </style>
+    <style name="Base.DialogWindowTitle.AppCompat" parent="@android:style/Widget">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+    <style name="Base.DialogWindowTitleBackground.AppCompat" parent="@android:style/Widget">
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">?attr/dialogPreferredPadding</item>
+        <item name="android:paddingTop">@dimen/abc_dialog_padding_top_material</item>
+        <item name="android:paddingRight">?attr/dialogPreferredPadding</item>
+    </style>
+    <style name="Base.MaterialAlertDialog.MaterialComponents.Title.Icon" parent="@android:style/Widget">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:src">@null</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:contentDescription">@null</item>
+        <item name="android:importantForAccessibility">2</item>
+    </style>
+    <style name="Base.MaterialAlertDialog.MaterialComponents.Title.Panel" parent="@android:style/Widget">
+    </style>
+    <style name="Base.MaterialAlertDialog.MaterialComponents.Title.Text" parent="@style/RtlOverlay.DialogWindowTitle.AppCompat">
+        <item name="android:textColor">@color/material_on_surface_emphasis_high_type</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat" parent="@android:style/TextAppearance.Material">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Body1" parent="@android:style/TextAppearance.Material.Body1">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Body2" parent="@android:style/TextAppearance.Material.Body2">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Button" parent="@android:style/TextAppearance.Material.Button">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Caption" parent="@android:style/TextAppearance.Material.Caption">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display1" parent="@android:style/TextAppearance.Material.Display1">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display2" parent="@android:style/TextAppearance.Material.Display2">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display3" parent="@android:style/TextAppearance.Material.Display3">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display4" parent="@android:style/TextAppearance.Material.Display4">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Headline" parent="@android:style/TextAppearance.Material.Headline">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Inverse" parent="@android:style/TextAppearance.Material.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Large" parent="@android:style/TextAppearance.Material.Large">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Large.Inverse" parent="@android:style/TextAppearance.Material.Large.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Large">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small" parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Small">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Medium" parent="@android:style/TextAppearance.Material.Medium">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Medium.Inverse" parent="@android:style/TextAppearance.Material.Medium.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Menu" parent="@android:style/TextAppearance.Material.Menu">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.SearchResult" parent="">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColorHint">?android:attr/textColorHint</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.SearchResult.Subtitle" parent="@android:style/TextAppearance.Material.SearchResult.Subtitle">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.SearchResult.Title" parent="@android:style/TextAppearance.Material.SearchResult.Title">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Small" parent="@android:style/TextAppearance.Material.Small">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Small.Inverse" parent="@android:style/TextAppearance.Material.Small.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Subhead" parent="@android:style/TextAppearance.Material.Subhead">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Subhead.Inverse" parent="@style/Base.TextAppearance.AppCompat.Subhead">
+        <item name="android:textColorHighlight">?android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:attr/textColorLinkInverse</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Title" parent="@android:style/TextAppearance.Material.Title">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Title.Inverse" parent="@style/Base.TextAppearance.AppCompat.Title">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Tooltip" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Subtitle">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Subtitle.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Subtitle" parent="@android:style/TextAppearance.Material.Widget.ActionMode.Subtitle">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Title" parent="@android:style/TextAppearance.Material.Widget.ActionMode.Title">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button" parent="@android:style/TextAppearance.Material.Widget.Button">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored" parent="@android:style/TextAppearance.Material.Widget.Button.Borderless.Colored">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Colored" parent="@android:style/TextAppearance.Material.Widget.Button.Colored">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Inverse" parent="@android:style/TextAppearance.Material.Widget.Button.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.DropDownItem" parent="@android:style/TextAppearance.Small">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Header" parent="@style/TextAppearance.AppCompat">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Large" parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Large">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Small" parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Small">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Switch" parent="@android:style/TextAppearance.Material.Button">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem" parent="@android:style/TextAppearance.Material.Widget.TextView.SpinnerItem">
+    </style>
+    <style name="Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="@android:style/TextAppearance.Medium">
+    </style>
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Subtitle">
+    </style>
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Title" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+    </style>
+    <style name="Base.Theme.Material3.Dark" parent="@style/Base.V24.Theme.Material3.Dark">
+    </style>
+    <style name="Base.Theme.Material3.Dark.BottomSheetDialog" parent="@style/Base.V14.Theme.Material3.Dark.BottomSheetDialog">
+    </style>
+    <style name="Base.Theme.Material3.Dark.Dialog" parent="@style/Base.V24.Theme.Material3.Dark.Dialog">
+    </style>
+    <style name="Base.Theme.Material3.Dark.Dialog.FixedSize" parent="@style/Base.Theme.Material3.Dark.Dialog">
+    </style>
+    <style name="Base.Theme.Material3.Dark.DialogWhenLarge" parent="@style/Base.Theme.Material3.Dark">
+    </style>
+    <style name="Base.Theme.Material3.Dark.SideSheetDialog" parent="@style/Base.V14.Theme.Material3.Dark.SideSheetDialog">
+    </style>
+    <style name="Base.Theme.Material3.Light" parent="@style/Base.V24.Theme.Material3.Light">
+    </style>
+    <style name="Base.Theme.Material3.Light.BottomSheetDialog" parent="@style/Base.V14.Theme.Material3.Light.BottomSheetDialog">
+    </style>
+    <style name="Base.Theme.Material3.Light.Dialog" parent="@style/Base.V24.Theme.Material3.Light.Dialog">
+    </style>
+    <style name="Base.Theme.Material3.Light.Dialog.FixedSize" parent="@style/Base.Theme.Material3.Light.Dialog">
+    </style>
+    <style name="Base.Theme.Material3.Light.DialogWhenLarge" parent="@style/Base.Theme.Material3.Light">
+    </style>
+    <style name="Base.Theme.Material3.Light.SideSheetDialog" parent="@style/Base.V14.Theme.Material3.Light.SideSheetDialog">
+    </style>
+    <style name="Base.Theme.MaterialComponents" parent="@style/Base.V21.Theme.MaterialComponents">
+    </style>
+    <style name="Base.Theme.MaterialComponents.Bridge" parent="@style/Base.V14.Theme.MaterialComponents.Bridge">
+    </style>
+    <style name="Base.Theme.MaterialComponents.CompactMenu" parent="">
+    </style>
+    <style name="Base.Theme.MaterialComponents.Dialog" parent="@style/Base.V21.Theme.MaterialComponents.Dialog">
+    </style>
+    <style name="Base.Theme.MaterialComponents.Dialog.Alert" parent="@style/Base.Theme.MaterialComponents.Dialog">
+    </style>
+    <style name="Base.Theme.MaterialComponents.Dialog.Bridge" parent="@style/Base.V14.Theme.MaterialComponents.Dialog.Bridge">
+    </style>
+    <style name="Base.Theme.MaterialComponents.Dialog.FixedSize" parent="@style/Base.Theme.MaterialComponents.Dialog">
+    </style>
+    <style name="Base.Theme.MaterialComponents.Dialog.MinWidth" parent="@style/Base.Theme.MaterialComponents.Dialog">
+    </style>
+    <style name="Base.Theme.MaterialComponents.DialogWhenLarge" parent="@style/Theme.MaterialComponents">
+    </style>
+    <style name="Base.Theme.MaterialComponents.Light" parent="@style/Base.V21.Theme.MaterialComponents.Light">
+    </style>
+    <style name="Base.Theme.MaterialComponents.Light.Bridge" parent="@style/Base.V14.Theme.MaterialComponents.Light.Bridge">
+    </style>
+    <style name="Base.Theme.MaterialComponents.Light.DarkActionBar" parent="@style/Base.Theme.MaterialComponents.Light">
+    </style>
+    <style name="Base.Theme.MaterialComponents.Light.DarkActionBar.Bridge" parent="@style/Base.V14.Theme.MaterialComponents.Light.DarkActionBar.Bridge">
+    </style>
+    <style name="Base.Theme.MaterialComponents.Light.Dialog" parent="@style/Base.V21.Theme.MaterialComponents.Light.Dialog">
+    </style>
+    <style name="Base.Theme.MaterialComponents.Light.Dialog.Alert" parent="@style/Base.Theme.MaterialComponents.Light.Dialog">
+    </style>
+    <style name="Base.Theme.MaterialComponents.Light.Dialog.Bridge" parent="@style/Base.V14.Theme.MaterialComponents.Light.Dialog.Bridge">
+    </style>
+    <style name="Base.Theme.MaterialComponents.Light.Dialog.FixedSize" parent="@style/Base.Theme.MaterialComponents.Light.Dialog">
+    </style>
+    <style name="Base.Theme.MaterialComponents.Light.Dialog.MinWidth" parent="@style/Base.Theme.MaterialComponents.Light.Dialog">
+    </style>
+    <style name="Base.Theme.MaterialComponents.Light.DialogWhenLarge" parent="@style/Theme.MaterialComponents.Light">
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat" parent="@style/Platform.ThemeOverlay.AppCompat">
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.ActionBar" parent="@style/Base.ThemeOverlay.AppCompat">
+        <item name="colorControlNormal">?android:attr/textColorPrimary</item>
+        <item name="searchViewStyle">@style/Widget.AppCompat.SearchView.ActionBar</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Dark" parent="@style/Platform.ThemeOverlay.AppCompat.Dark">
+        <item name="android:colorForeground">@color/foreground_material_dark</item>
+        <item name="android:colorBackground">@color/background_material_dark</item>
+        <item name="android:textColorPrimary">@color/abc_primary_text_material_dark</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/abc_primary_text_disable_only_material_dark</item>
+        <item name="android:textColorSecondary">@color/abc_secondary_text_material_dark</item>
+        <item name="android:textColorPrimaryInverse">@color/abc_primary_text_material_light</item>
+        <item name="android:textColorSecondaryInverse">@color/abc_secondary_text_material_light</item>
+        <item name="android:textColorHintInverse">@color/abc_hint_foreground_material_light</item>
+        <item name="android:windowBackground">@color/background_material_dark</item>
+        <item name="android:colorForegroundInverse">@color/foreground_material_light</item>
+        <item name="android:textColorTertiary">@color/abc_secondary_text_material_dark</item>
+        <item name="android:textColorTertiaryInverse">@color/abc_secondary_text_material_light</item>
+        <item name="android:colorBackgroundCacheHint">@color/abc_background_cache_hint_selector_material_dark</item>
+        <item name="colorBackgroundFloating">@color/background_floating_material_dark</item>
+        <item name="colorButtonNormal">@color/button_material_dark</item>
+        <item name="colorControlHighlight">@color/ripple_material_dark</item>
+        <item name="colorSwitchThumbNormal">@color/switch_thumb_material_dark</item>
+        <item name="isLightTheme">false</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Dark.ActionBar" parent="@style/Base.ThemeOverlay.AppCompat.Dark">
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Dialog" parent="@style/Base.V21.ThemeOverlay.AppCompat.Dialog">
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Dialog.Alert" parent="@style/Base.ThemeOverlay.AppCompat.Dialog">
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Light" parent="@style/Platform.ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimaryInverseDisableOnly">@color/abc_primary_text_disable_only_material_dark</item>
+    </style>
+    <style name="Base.ThemeOverlay.Material3.AutoCompleteTextView" parent="@style/ThemeOverlay.MaterialComponents.AutoCompleteTextView">
+        <item name="colorControlActivated">?attr/colorPrimary</item>
+    </style>
+    <style name="Base.ThemeOverlay.Material3.BottomSheetDialog" parent="@style/Base.V21.ThemeOverlay.Material3.BottomSheetDialog">
+    </style>
+    <style name="Base.ThemeOverlay.Material3.Dialog" parent="@style/Base.ThemeOverlay.MaterialComponents.Dialog">
+        <item name="android:backgroundDimAmount">@dimen/m3_comp_scrim_container_opacity</item>
+        <item name="materialButtonStyle">@style/Widget.Material3.Button.TextButton.Dialog.Flush</item>
+    </style>
+    <style name="Base.ThemeOverlay.Material3.SideSheetDialog" parent="@style/Base.V21.ThemeOverlay.Material3.SideSheetDialog">
+    </style>
+    <style name="Base.ThemeOverlay.Material3.TextInputEditText" parent="@style/ThemeOverlay.MaterialComponents.TextInputEditText">
+    </style>
+    <style name="Base.ThemeOverlay.MaterialComponents.Dialog" parent="@style/Base.V14.ThemeOverlay.MaterialComponents.Dialog">
+    </style>
+    <style name="Base.ThemeOverlay.MaterialComponents.Dialog.Alert" parent="@style/Base.V14.ThemeOverlay.MaterialComponents.Dialog.Alert">
+    </style>
+    <style name="Base.ThemeOverlay.MaterialComponents.Dialog.Alert.Framework" parent="@android:style/Theme.Material.Dialog.Alert">
+        <item name="android:buttonBarButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog.Flush</item>
+    </style>
+    <style name="Base.ThemeOverlay.MaterialComponents.Light.Dialog.Alert.Framework" parent="@android:style/Theme.Material.Light.Dialog.Alert">
+    </style>
+    <style name="Base.ThemeOverlay.MaterialComponents.MaterialAlertDialog" parent="@style/Base.V14.ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+    </style>
+    <style name="Base.Widget.Design.TabLayout" parent="@android:style/Widget">
+        <item name="tabIconTint">@null</item>
+        <item name="tabIndicator">@drawable/mtrl_tabs_default_indicator</item>
+        <item name="tabIndicatorAnimationDuration">@integer/design_tab_indicator_anim_duration_ms</item>
+        <item name="tabIndicatorAnimationMode">linear</item>
+        <item name="tabIndicatorColor">?attr/colorAccent</item>
+        <item name="tabIndicatorGravity">bottom</item>
+        <item name="tabMaxWidth">@dimen/design_tab_max_width</item>
+        <item name="tabPaddingEnd">12dp</item>
+        <item name="tabPaddingStart">12dp</item>
+        <item name="tabRippleColor">?attr/colorControlHighlight</item>
+        <item name="tabTextAppearance">@style/TextAppearance.Design.Tab</item>
+        <item name="tabTextColor">@null</item>
+        <item name="tabUnboundedRipple">false</item>
+    </style>
+    <style name="Base.Widget.Material3.ActionBar.Solid" parent="@style/Widget.AppCompat.ActionBar.Solid">
+    </style>
+    <style name="Base.Widget.Material3.ActionMode" parent="@style/Widget.AppCompat.ActionMode">
+    </style>
+    <style name="Base.Widget.Material3.BottomNavigationView" parent="@style/Widget.MaterialComponents.BottomNavigationView">
+        <item name="activeIndicatorLabelPadding">@dimen/m3_navigation_item_active_indicator_label_padding</item>
+        <item name="backgroundTint">@null</item>
+        <item name="iconLabelHorizontalSpacing">@dimen/m3_navigation_item_active_indicator_label_padding</item>
+        <item name="itemActiveIndicatorStyle">@style/Widget.Material3.BottomNavigationView.ActiveIndicator</item>
+        <item name="itemIconSize">@dimen/m3_comp_nav_bar_item_icon_size</item>
+        <item name="itemIconTint">@color/m3_navigation_bar_item_with_indicator_icon_tint</item>
+        <item name="itemPaddingBottom">@dimen/m3_bottom_nav_item_padding_bottom</item>
+        <item name="itemPaddingTop">@dimen/m3_bottom_nav_item_padding_top</item>
+        <item name="itemRippleColor">@color/m3_navigation_bar_ripple_color_selector</item>
+        <item name="itemTextAppearanceActive">?attr/textAppearanceLabelMedium</item>
+        <item name="itemTextAppearanceInactive">?attr/textAppearanceLabelMedium</item>
+        <item name="itemTextColor">@color/m3_navigation_bar_item_with_indicator_label_tint</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Material3.BottomNavigationView</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.M3.Comp.NavBar.Container.Shape</item>
+    </style>
+    <style name="Base.Widget.Material3.CardView" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="android:stateListAnimator">@animator/m3_card_state_list_anim</item>
+        <item name="cardForegroundColor">@color/m3_card_foreground_color</item>
+        <item name="checkedIconTint">@color/m3_card_stroke_color</item>
+        <item name="rippleColor">@color/m3_card_ripple_color</item>
+        <item name="strokeColor">@color/m3_card_stroke_color</item>
+        <item name="strokeWidth">@dimen/m3_card_stroke_width</item>
+    </style>
+    <style name="Base.Widget.Material3.Chip" parent="@style/Base.Widget.MaterialComponents.Chip">
+        <item name="checkedIcon">@drawable/ic_m3_chip_checked_circle</item>
+        <item name="chipBackgroundColor">@color/m3_chip_background_color</item>
+        <item name="chipIconSize">@dimen/m3_chip_icon_size</item>
+        <item name="chipStrokeColor">@color/m3_chip_stroke_color</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipSurfaceColor">?attr/colorSurface</item>
+        <item name="closeIconTint">@color/m3_chip_text_color</item>
+        <item name="shapeAppearanceOverlay">@null</item>
+    </style>
+    <style name="Base.Widget.Material3.CollapsingToolbar" parent="@style/Widget.MaterialComponents.CollapsingToolbar">
+        <item name="android:clipToPadding">false</item>
+        <item name="collapsedSubtitleTextAppearance">?attr/textAppearanceTitleMedium</item>
+        <item name="collapsedSubtitleTextColor">?attr/colorOnSurface</item>
+        <item name="collapsedTitleTextAppearance">?attr/textAppearanceTitleLarge</item>
+        <item name="collapsedTitleTextColor">?attr/colorOnSurface</item>
+        <item name="expandedSubtitleTextColor">?attr/colorOnSurface</item>
+        <item name="expandedTitleMarginBottom">@dimen/m3_appbar_expanded_title_margin_bottom</item>
+        <item name="expandedTitleMarginEnd">@dimen/m3_appbar_expanded_title_margin_horizontal</item>
+        <item name="expandedTitleMarginStart">@dimen/m3_appbar_expanded_title_margin_horizontal</item>
+        <item name="expandedTitleTextColor">?attr/colorOnSurface</item>
+        <item name="extraMultilineHeightEnabled">true</item>
+        <item name="forceApplySystemWindowInsetTop">true</item>
+        <item name="scrimAnimationDuration">?attr/motionDurationMedium2</item>
+        <item name="titleCollapseMode">fade</item>
+    </style>
+    <style name="Base.Widget.Material3.CompoundButton.CheckBox" parent="@style/Widget.MaterialComponents.CompoundButton.CheckBox">
+        <item name="buttonIcon">@null</item>
+        <item name="buttonIconTint">@color/m3_checkbox_button_icon_tint</item>
+        <item name="buttonTint">@color/m3_checkbox_button_tint</item>
+        <item name="errorAccessibilityLabel">@string/error_a11y_label</item>
+    </style>
+    <style name="Base.Widget.Material3.CompoundButton.RadioButton" parent="@style/Widget.MaterialComponents.CompoundButton.RadioButton">
+    </style>
+    <style name="Base.Widget.Material3.CompoundButton.Switch" parent="@style/Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="thumbTint">@color/m3_switch_thumb_tint</item>
+        <item name="trackTint">@color/m3_switch_track_tint</item>
+        <item name="trackTintMode">src_in</item>
+    </style>
+    <style name="Base.Widget.Material3.DockedToolbar" parent="">
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+    <style name="Base.Widget.Material3.ExtendedFloatingActionButton" parent="@style/Widget.MaterialComponents.ExtendedFloatingActionButton">
+        <item name="extendMotionSpec">@animator/m3_extended_fab_change_size_expand_motion_spec</item>
+        <item name="hideMotionSpec">@animator/m3_extended_fab_hide_motion_spec</item>
+        <item name="iconSize">@dimen/m3_comp_extended_fab_small_icon_size</item>
+        <item name="iconTint">@color/m3_fab_efab_foreground_color_selector</item>
+        <item name="showMotionSpec">@animator/m3_extended_fab_show_motion_spec</item>
+        <item name="shrinkMotionSpec">@animator/m3_extended_fab_change_size_collapse_motion_spec</item>
+    </style>
+    <style name="Base.Widget.Material3.ExtendedFloatingActionButton.Icon" parent="@style/Base.Widget.Material3.ExtendedFloatingActionButton">
+        <item name="iconPadding">@dimen/m3_extended_fab_icon_padding</item>
+    </style>
+    <style name="Base.Widget.Material3.ExtendedFloatingActionButton.Large" parent="@style/Base.Widget.Material3.ExtendedFloatingActionButton">
+        <item name="collapsedSize">@dimen/m3_comp_fab_large_container_height</item>
+    </style>
+    <style name="Base.Widget.Material3.ExtendedFloatingActionButton.Medium" parent="@style/Base.Widget.Material3.ExtendedFloatingActionButton">
+    </style>
+    <style name="Base.Widget.Material3.ExtendedFloatingActionButton.Small" parent="@style/Base.Widget.Material3.ExtendedFloatingActionButton">
+    </style>
+    <style name="Base.Widget.Material3.FloatingActionButton" parent="@style/Widget.MaterialComponents.FloatingActionButton">
+        <item name="borderWidth">@dimen/m3_fab_border_width</item>
+        <item name="fabCustomSize">@dimen/m3_comp_fab_container_height</item>
+        <item name="maxImageSize">@dimen/m3_comp_fab_icon_size</item>
+        <item name="tint">@color/m3_fab_efab_foreground_color_selector</item>
+    </style>
+    <style name="Base.Widget.Material3.FloatingActionButton.Large" parent="@style/Base.Widget.Material3.FloatingActionButton">
+    </style>
+    <style name="Base.Widget.Material3.FloatingActionButton.Medium" parent="@style/Base.Widget.Material3.FloatingActionButton">
+    </style>
+    <style name="Base.Widget.Material3.FloatingActionButton.Small" parent="@style/Base.Widget.Material3.FloatingActionButton">
+    </style>
+    <style name="Base.Widget.Material3.FloatingToolbar" parent="">
+        <item name="marginBottomSystemWindowInsets">true</item>
+        <item name="marginLeftSystemWindowInsets">true</item>
+        <item name="marginRightSystemWindowInsets">true</item>
+        <item name="marginTopSystemWindowInsets">false</item>
+    </style>
+    <style name="Base.Widget.Material3.Light.ActionBar.Solid" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+    </style>
+    <style name="Base.Widget.Material3.MaterialCalendar.NavigationButton" parent="@style/Widget.Material3.Button.TextButton.Dialog.Flush">
+    </style>
+    <style name="Base.Widget.Material3.Snackbar" parent="@style/Base.Widget.MaterialComponents.Snackbar">
+        <item name="actionTextColorAlpha">@dimen/m3_snackbar_action_text_color_alpha</item>
+    </style>
+    <style name="Base.Widget.Material3.TabLayout" parent="@style/Widget.MaterialComponents.TabLayout">
+        <item name="tabIndicatorFullWidth">false</item>
+    </style>
+    <style name="Base.Widget.Material3.TabLayout.OnSurface" parent="@style/Widget.Material3.TabLayout">
+    </style>
+    <style name="Base.Widget.Material3.TabLayout.Secondary" parent="@style/Widget.Material3.TabLayout">
+    </style>
+    <style name="Base.Widget.MaterialComponents.AutoCompleteTextView" parent="@style/Base.V14.Widget.MaterialComponents.AutoCompleteTextView">
+    </style>
+    <style name="Base.Widget.MaterialComponents.CheckedTextView" parent="@android:style/Widget.Material.CheckedTextView">
+    </style>
+    <style name="Base.Widget.MaterialComponents.Chip" parent="@android:style/Widget">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:text">@null</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:checkable">false</item>
+        <item name="checkedIconVisible">true</item>
+        <item name="chipEndPadding">6dp</item>
+        <item name="chipIcon">@null</item>
+        <item name="chipIconVisible">true</item>
+        <item name="chipMinHeight">32dp</item>
+        <item name="chipMinTouchTargetSize">48dp</item>
+        <item name="chipStartPadding">4dp</item>
+        <item name="closeIconEndPadding">2dp</item>
+        <item name="closeIconSize">18dp</item>
+        <item name="closeIconStartPadding">2dp</item>
+        <item name="closeIconVisible">true</item>
+        <item name="ensureMinTouchTargetSize">true</item>
+        <item name="iconEndPadding">0dp</item>
+        <item name="iconStartPadding">0dp</item>
+        <item name="textEndPadding">6dp</item>
+        <item name="textStartPadding">8dp</item>
+    </style>
+    <style name="Base.Widget.MaterialComponents.MaterialCalendar.HeaderToggleButton" parent="@style/Widget.AppCompat.ImageButton">
+        <item name="android:tint">?attr/colorOnPrimary</item>
+    </style>
+    <style name="Base.Widget.MaterialComponents.MaterialCalendar.NavigationButton" parent="@style/Widget.MaterialComponents.Button.TextButton.Dialog.Flush">
+    </style>
+    <style name="Base.Widget.MaterialComponents.PopupMenu" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="overlapAnchor">false</item>
+    </style>
+    <style name="Base.Widget.MaterialComponents.PopupMenu.ContextMenu" parent="@style/Widget.AppCompat.PopupMenu">
+    </style>
+    <style name="Base.Widget.MaterialComponents.PopupMenu.ListPopupWindow" parent="@style/Widget.AppCompat.ListPopupWindow">
+    </style>
+    <style name="Base.Widget.MaterialComponents.PopupMenu.Overflow" parent="@style/Widget.AppCompat.PopupMenu.Overflow">
+    </style>
+    <style name="Base.Widget.MaterialComponents.Slider" parent="@android:style/Widget">
+        <item name="haloColor">@color/material_slider_halo_color</item>
+        <item name="haloRadius">@dimen/mtrl_slider_halo_radius</item>
+        <item name="labelStyle">@style/Widget.MaterialComponents.Tooltip</item>
+        <item name="minSeparation">0dp</item>
+        <item name="thumbColor">@color/material_slider_thumb_color</item>
+        <item name="thumbElevation">@dimen/mtrl_slider_thumb_elevation</item>
+        <item name="thumbRadius">@dimen/mtrl_slider_thumb_radius</item>
+        <item name="tickColorActive">@color/material_slider_active_tick_marks_color</item>
+        <item name="tickColorInactive">@color/material_slider_inactive_tick_marks_color</item>
+        <item name="tickRadiusActive">@dimen/mtrl_slider_tick_radius</item>
+        <item name="tickRadiusInactive">@dimen/mtrl_slider_tick_radius</item>
+        <item name="trackColorActive">@color/material_slider_active_track_color</item>
+        <item name="trackColorInactive">@color/material_slider_inactive_track_color</item>
+        <item name="trackHeight">@dimen/mtrl_slider_track_height</item>
+    </style>
+    <style name="Base.Widget.MaterialComponents.Snackbar" parent="@style/Widget.Design.Snackbar">
+        <item name="backgroundOverlayColorAlpha">@dimen/mtrl_snackbar_background_overlay_color_alpha</item>
+    </style>
+    <style name="Base.Widget.MaterialComponents.TextInputEditText" parent="@style/Widget.Design.TextInputEditText">
+        <item name="textInputLayoutFocusedRectEnabled">true</item>
+    </style>
+    <style name="Base.Widget.MaterialComponents.TextInputLayout" parent="@style/Widget.Design.TextInputLayout">
+        <item name="android:maxWidth">@dimen/material_textinput_max_width</item>
+        <item name="boxBackgroundColor">@null</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxCollapsedPaddingTop">0dp</item>
+        <item name="boxStrokeColor">@color/mtrl_outlined_stroke_color</item>
+        <item name="boxStrokeErrorColor">@color/mtrl_error</item>
+        <item name="boxStrokeWidth">@dimen/mtrl_textinput_box_stroke_width_default</item>
+        <item name="boxStrokeWidthFocused">@dimen/mtrl_textinput_box_stroke_width_focused</item>
+        <item name="counterOverflowTextAppearance">?attr/textAppearanceCaption</item>
+        <item name="counterOverflowTextColor">@color/mtrl_error</item>
+        <item name="counterTextAppearance">?attr/textAppearanceCaption</item>
+        <item name="counterTextColor">@color/mtrl_indicator_text_color</item>
+        <item name="cursorColor">@null</item>
+        <item name="cursorErrorColor">@color/mtrl_error</item>
+        <item name="endIconTint">@color/mtrl_outlined_icon_tint</item>
+        <item name="errorIconDrawable">@drawable/mtrl_ic_error</item>
+        <item name="errorIconTint">@color/mtrl_error</item>
+        <item name="errorTextAppearance">?attr/textAppearanceCaption</item>
+        <item name="errorTextColor">@color/mtrl_error</item>
+        <item name="helperTextTextAppearance">?attr/textAppearanceCaption</item>
+        <item name="helperTextTextColor">@color/mtrl_indicator_text_color</item>
+        <item name="hintTextAppearance">?attr/textAppearanceCaption</item>
+        <item name="hintTextColor">?attr/colorPrimary</item>
+        <item name="placeholderTextAppearance">?attr/textAppearanceSubtitle1</item>
+        <item name="placeholderTextColor">@color/mtrl_indicator_text_color</item>
+        <item name="prefixTextAppearance">?attr/textAppearanceSubtitle1</item>
+        <item name="prefixTextColor">@color/mtrl_indicator_text_color</item>
+        <item name="startIconTint">@color/mtrl_outlined_icon_tint</item>
+        <item name="suffixTextAppearance">?attr/textAppearanceSubtitle1</item>
+        <item name="suffixTextColor">@color/mtrl_indicator_text_color</item>
+    </style>
+    <style name="Base.Widget.MaterialComponents.TextView" parent="@style/Widget.AppCompat.TextView">
+    </style>
+    <style name="CardView" parent="@style/Base.CardView">
+        <item name="cardBackgroundColor">?android:attr/colorBackgroundFloating</item>
+    </style>
+    <style name="CardView.Dark" parent="@style/CardView">
+    </style>
+    <style name="CardView.Light" parent="@style/CardView">
+    </style>
+    <style name="MaterialAlertDialog.Material3" parent="@style/MaterialAlertDialog.MaterialComponents">
+    </style>
+    <style name="MaterialAlertDialog.Material3.Animation" parent="@style/MaterialAlertDialog.Material3">
+    </style>
+    <style name="MaterialAlertDialog.Material3.Body.Text" parent="">
+    </style>
+    <style name="MaterialAlertDialog.Material3.Body.Text.CenterStacked" parent="@style/MaterialAlertDialog.Material3.Body.Text">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAlignment">1</item>
+    </style>
+    <style name="MaterialAlertDialog.Material3.Title.Icon" parent="@style/MaterialAlertDialog.MaterialComponents.Title.Icon">
+        <item name="android:theme">@style/ThemeOverlay.MaterialAlertDialog.Material3.Title.Icon</item>
+        <item name="android:layout_marginRight">@dimen/m3_alert_dialog_icon_margin</item>
+        <item name="android:layout_marginEnd">@dimen/m3_alert_dialog_icon_margin</item>
+    </style>
+    <style name="MaterialAlertDialog.Material3.Title.Icon.CenterStacked" parent="@style/MaterialAlertDialog.Material3.Title.Icon">
+        <item name="android:layout_marginBottom">@dimen/m3_alert_dialog_icon_margin</item>
+    </style>
+    <style name="MaterialAlertDialog.Material3.Title.Panel" parent="@style/MaterialAlertDialog.MaterialComponents.Title.Panel">
+    </style>
+    <style name="MaterialAlertDialog.Material3.Title.Panel.CenterStacked" parent="@style/MaterialAlertDialog.Material3.Title.Panel">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="MaterialAlertDialog.Material3.Title.Text" parent="@style/MaterialAlertDialog.MaterialComponents.Title.Text">
+    </style>
+    <style name="MaterialAlertDialog.Material3.Title.Text.CenterStacked" parent="@style/MaterialAlertDialog.Material3.Title.Text">
+    </style>
+    <style name="MaterialAlertDialog.MaterialComponents" parent="@style/AlertDialog.AppCompat">
+        <item name="backgroundInsetBottom">@dimen/mtrl_alert_dialog_background_inset_bottom</item>
+        <item name="backgroundInsetEnd">@dimen/mtrl_alert_dialog_background_inset_end</item>
+        <item name="backgroundInsetStart">@dimen/mtrl_alert_dialog_background_inset_start</item>
+        <item name="backgroundInsetTop">@dimen/mtrl_alert_dialog_background_inset_top</item>
+    </style>
+    <style name="MaterialAlertDialog.MaterialComponents.Body.Text" parent="@style/TextAppearance.MaterialComponents.Body2">
+    </style>
+    <style name="MaterialAlertDialog.MaterialComponents.Picker.Date.Calendar" parent="@android:style/Widget.DeviceDefault.DatePicker">
+        <item name="android:headerBackground">?attr/colorPrimary</item>
+        <item name="android:headerMonthTextAppearance">@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date.Header.Text</item>
+        <item name="android:headerDayOfMonthTextAppearance">@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date.Header.Text.Day</item>
+        <item name="android:headerYearTextAppearance">@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date.Header.Text</item>
+        <item name="android:calendarTextColor">?attr/colorOnSurface</item>
+        <item name="android:datePickerMode">calendar</item>
+    </style>
+    <style name="MaterialAlertDialog.MaterialComponents.Picker.Date.Spinner" parent="@android:style/Widget.DeviceDefault.DatePicker">
+    </style>
+    <style name="MaterialAlertDialog.MaterialComponents.Title.Icon" parent="@style/Base.MaterialAlertDialog.MaterialComponents.Title.Icon">
+    </style>
+    <style name="MaterialAlertDialog.MaterialComponents.Title.Icon.CenterStacked" parent="@style/Base.MaterialAlertDialog.MaterialComponents.Title.Icon">
+    </style>
+    <style name="MaterialAlertDialog.MaterialComponents.Title.Panel" parent="@style/Base.MaterialAlertDialog.MaterialComponents.Title.Panel">
+    </style>
+    <style name="MaterialAlertDialog.MaterialComponents.Title.Panel.CenterStacked" parent="@style/Base.MaterialAlertDialog.MaterialComponents.Title.Panel">
+    </style>
+    <style name="MaterialAlertDialog.MaterialComponents.Title.Text" parent="@style/Base.MaterialAlertDialog.MaterialComponents.Title.Text">
+    </style>
+    <style name="MaterialAlertDialog.MaterialComponents.Title.Text.CenterStacked" parent="@style/Base.MaterialAlertDialog.MaterialComponents.Title.Text">
+    </style>
+    <style name="Motion.Material3.Spring.Standard.Default.Effects" parent="">
+        <item name="damping">@dimen/m3_sys_motion_standard_spring_default_effects_damping</item>
+        <item name="stiffness">@dimen/m3_sys_motion_standard_spring_default_effects_stiffness</item>
+    </style>
+    <style name="Motion.Material3.Spring.Standard.Default.Spatial" parent="">
+    </style>
+    <style name="Motion.Material3.Spring.Standard.Fast.Effects" parent="">
+    </style>
+    <style name="Motion.Material3.Spring.Standard.Fast.Spatial" parent="">
+    </style>
+    <style name="Motion.Material3.Spring.Standard.Slow.Effects" parent="">
+    </style>
+    <style name="Motion.Material3.Spring.Standard.Slow.Spatial" parent="">
+    </style>
+    <style name="Platform.AppCompat" parent="@style/Platform.V21.AppCompat">
+    </style>
+    <style name="Platform.AppCompat.Light" parent="@style/Platform.V21.AppCompat.Light">
+    </style>
+    <style name="Platform.MaterialComponents" parent="@style/Theme.AppCompat">
+    </style>
+    <style name="Platform.MaterialComponents.Dialog" parent="@style/Theme.AppCompat.Dialog">
+    </style>
+    <style name="Platform.MaterialComponents.Light" parent="@style/Theme.AppCompat.Light">
+    </style>
+    <style name="Platform.MaterialComponents.Light.Dialog" parent="@style/Theme.AppCompat.Light.Dialog">
+    </style>
+    <style name="Platform.ThemeOverlay.AppCompat" parent="">
+    </style>
+    <style name="Platform.ThemeOverlay.AppCompat.Dark" parent="@style/Platform.ThemeOverlay.AppCompat">
+    </style>
+    <style name="Platform.ThemeOverlay.AppCompat.Light" parent="@style/Platform.ThemeOverlay.AppCompat">
+    </style>
+    <style name="Platform.V21.AppCompat" parent="@android:style/Theme.Material.NoActionBar">
+    </style>
+    <style name="Platform.V21.AppCompat.Light" parent="@android:style/Theme.Material.Light.NoActionBar">
+    </style>
+    <style name="Platform.Widget.AppCompat.Spinner" parent="@android:style/Widget.Holo.Spinner">
+    </style>
+    <style name="RtlOverlay.DialogWindowTitle.AppCompat" parent="@style/Base.DialogWindowTitle.AppCompat">
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem" parent="@android:style/Widget">
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.DialogTitle.Icon" parent="@android:style/Widget">
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem" parent="@android:style/Widget">
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.InternalGroup" parent="@android:style/Widget">
+        <item name="android:layout_marginStart">16dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.Shortcut" parent="@android:style/Widget">
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.SubmenuArrow" parent="@android:style/Widget">
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.Text" parent="@android:style/Widget">
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.Title" parent="@android:style/Widget">
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown" parent="@android:style/Widget">
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Icon1" parent="@android:style/Widget">
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Icon2" parent="@android:style/Widget">
+        <item name="android:layout_toStartOf">@id/edit_query</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Query" parent="@android:style/Widget">
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Text" parent="@style/Base.Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:layout_toEndOf">@android:id/icon1</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.SearchView.MagIcon" parent="@android:style/Widget">
+    </style>
+    <style name="RtlUnderlay.Widget.AppCompat.ActionButton" parent="@android:style/Widget">
+    </style>
+    <style name="RtlUnderlay.Widget.AppCompat.ActionButton.Overflow" parent="@style/Base.Widget.AppCompat.ActionButton">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.Badge.Large.Shape" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.Badge.Shape" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.BottomAppBar.Container.Shape" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.None">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.Button.Large.Container.Shape.Round" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.Button.Large.Selected.Container.Shape.Square" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.Button.Medium.Container.Shape.Round" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.Button.Medium.Selected.Container.Shape.Square" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.Button.Small.Container.Shape.Round" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.Button.Small.Selected.Container.Shape.Square" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.Button.Xlarge.Container.Shape.Round" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.Button.Xlarge.Selected.Container.Shape.Square" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.Button.Xsmall.Container.Shape.Round" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.Button.Xsmall.Selected.Container.Shape.Square" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.ButtonGroup.Connected.Small.Container.Shape" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.DatePicker.Modal.Date.Container.Shape" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.IconButton.Large.Container.Shape.Round" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.IconButton.Large.Selected.Container.Shape.Square" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.IconButton.Medium.Container.Shape.Round" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.IconButton.Medium.Selected.Container.Shape.Square" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.IconButton.Small.Container.Shape.Round" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.IconButton.Small.Selected.Container.Shape.Square" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.IconButton.Xlarge.Container.Shape.Round" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.IconButton.Xlarge.Selected.Container.Shape.Square" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.IconButton.Xsmall.Container.Shape.Round" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.IconButton.Xsmall.Selected.Container.Shape.Square" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.NavBar.Container.Shape" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.None">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.NavBar.Item.ActiveIndicator.Shape" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.NavRail.Collapsed.Container.Shape" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.None">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.NavRail.Expanded.Container.Shape" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.None">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.NavRail.Item.ActiveIndicator.Shape" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.NavigationDrawer.ActiveIndicator.Shape" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.SearchBar.Avatar.Shape" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.SearchBar.Container.Shape" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.SearchView.FullScreen.Container.Shape" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.None">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.Sheet.Side.Docked.Container.Shape" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.None">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.Switch.Handle.Shape" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.Switch.StateLayer.Shape" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.Switch.Track.Shape" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.Toolbar.Docked.Container.Shape" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.None">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.Toolbar.Floating.Container.Shape" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Comp.Toolbar.Vibrant.Vibrant.Container.Shape" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.M3.Sys.Shape.Corner.ExtraExtraLarge" parent="">
+        <item name="cornerFamily">?attr/shapeCornerFamily</item>
+        <item name="cornerSize">48dp</item>
+    </style>
+    <style name="ShapeAppearance.M3.Sys.Shape.Corner.ExtraLarge" parent="">
+    </style>
+    <style name="ShapeAppearance.M3.Sys.Shape.Corner.ExtraLargeIncreased" parent="">
+    </style>
+    <style name="ShapeAppearance.M3.Sys.Shape.Corner.ExtraSmall" parent="">
+    </style>
+    <style name="ShapeAppearance.M3.Sys.Shape.Corner.Full" parent="">
+    </style>
+    <style name="ShapeAppearance.M3.Sys.Shape.Corner.Large" parent="">
+    </style>
+    <style name="ShapeAppearance.M3.Sys.Shape.Corner.LargeIncreased" parent="">
+    </style>
+    <style name="ShapeAppearance.M3.Sys.Shape.Corner.Medium" parent="">
+    </style>
+    <style name="ShapeAppearance.M3.Sys.Shape.Corner.None" parent="">
+    </style>
+    <style name="ShapeAppearance.M3.Sys.Shape.Corner.Small" parent="">
+    </style>
+    <style name="ShapeAppearance.Material3.Corner.ExtraExtraLarge" parent="">
+    </style>
+    <style name="ShapeAppearance.Material3.Corner.ExtraLarge" parent="">
+    </style>
+    <style name="ShapeAppearance.Material3.Corner.ExtraLargeIncreased" parent="">
+    </style>
+    <style name="ShapeAppearance.Material3.Corner.ExtraSmall" parent="">
+    </style>
+    <style name="ShapeAppearance.Material3.Corner.Full" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.Material3.Corner.Large" parent="">
+    </style>
+    <style name="ShapeAppearance.Material3.Corner.LargeIncreased" parent="">
+    </style>
+    <style name="ShapeAppearance.Material3.Corner.Medium" parent="">
+    </style>
+    <style name="ShapeAppearance.Material3.Corner.None" parent="@style/ShapeAppearance.M3.Sys.Shape.Corner.None">
+    </style>
+    <style name="ShapeAppearance.Material3.Corner.Small" parent="">
+    </style>
+    <style name="ShapeAppearance.Material3.LargeComponent" parent="">
+    </style>
+    <style name="ShapeAppearance.Material3.MediumComponent" parent="">
+    </style>
+    <style name="ShapeAppearance.Material3.NavigationBarView.ActiveIndicator" parent="@style/ShapeAppearance.M3.Comp.NavigationDrawer.ActiveIndicator.Shape">
+    </style>
+    <style name="ShapeAppearance.Material3.SmallComponent" parent="">
+    </style>
+    <style name="ShapeAppearance.Material3.Tooltip" parent="@style/ShapeAppearance.Material3.Corner.Full">
+    </style>
+    <style name="ShapeAppearance.MaterialComponents" parent="">
+    </style>
+    <style name="ShapeAppearance.MaterialComponents.Badge" parent="@style/ShapeAppearance.MaterialComponents">
+    </style>
+    <style name="ShapeAppearance.MaterialComponents.LargeComponent" parent="@style/ShapeAppearance.MaterialComponents">
+    </style>
+    <style name="ShapeAppearance.MaterialComponents.MediumComponent" parent="@style/ShapeAppearance.MaterialComponents">
+    </style>
+    <style name="ShapeAppearance.MaterialComponents.SmallComponent" parent="@style/ShapeAppearance.MaterialComponents">
+    </style>
+    <style name="ShapeAppearance.MaterialComponents.Tooltip" parent="">
+    </style>
+    <style name="ShapeAppearanceOverlay.Material3.Button" parent="">
+    </style>
+    <style name="ShapeAppearanceOverlay.Material3.Chip" parent="">
+    </style>
+    <style name="ShapeAppearanceOverlay.Material3.Corner.Bottom" parent="">
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeTopRight">0dp</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.Material3.Corner.Left" parent="">
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.Material3.Corner.Right" parent="">
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.Material3.Corner.Top" parent="">
+    </style>
+    <style name="ShapeAppearanceOverlay.Material3.FloatingActionButton" parent="">
+    </style>
+    <style name="ShapeAppearanceOverlay.Material3.NavigationView.Item" parent="@style/ShapeAppearance.M3.Comp.NavigationDrawer.ActiveIndicator.Shape">
+    </style>
+    <style name="ShapeAppearanceOverlay.Material3.SearchBar" parent="@style/ShapeAppearance.M3.Comp.SearchBar.Container.Shape">
+    </style>
+    <style name="ShapeAppearanceOverlay.Material3.SearchView" parent="@style/ShapeAppearance.M3.Comp.SearchView.FullScreen.Container.Shape">
+    </style>
+    <style name="ShapeAppearanceOverlay.MaterialAlertDialog.Material3" parent="">
+    </style>
+    <style name="ShapeAppearanceOverlay.MaterialComponents.BottomSheet" parent="">
+    </style>
+    <style name="ShapeAppearanceOverlay.MaterialComponents.Chip" parent="">
+    </style>
+    <style name="ShapeAppearanceOverlay.MaterialComponents.ExtendedFloatingActionButton" parent="">
+    </style>
+    <style name="ShapeAppearanceOverlay.MaterialComponents.FloatingActionButton" parent="">
+    </style>
+    <style name="ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Day" parent="">
+    </style>
+    <style name="ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Window.Fullscreen" parent="">
+    </style>
+    <style name="ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Year" parent="">
+    </style>
+    <style name="ShapeAppearanceOverlay.MaterialComponents.TextInputLayout.FilledBox" parent="">
+    </style>
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.Material.Notification">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info" parent="@android:style/TextAppearance.Material.Notification.Info">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2" parent="@style/TextAppearance.Compat.Notification.Info">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time" parent="@android:style/TextAppearance.Material.Notification.Time">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.Material.Notification.Title">
+    </style>
+    <style name="TextAppearance.Design.CollapsingToolbar.Expanded" parent="@style/TextAppearance.AppCompat.Display1">
+    </style>
+    <style name="TextAppearance.Design.Counter" parent="@style/TextAppearance.AppCompat.Caption">
+    </style>
+    <style name="TextAppearance.Design.Counter.Overflow" parent="@style/TextAppearance.AppCompat.Caption">
+    </style>
+    <style name="TextAppearance.Design.Error" parent="@style/TextAppearance.AppCompat.Caption">
+    </style>
+    <style name="TextAppearance.Design.HelperText" parent="@style/TextAppearance.AppCompat.Caption">
+    </style>
+    <style name="TextAppearance.Design.Hint" parent="@style/TextAppearance.AppCompat.Caption">
+    </style>
+    <style name="TextAppearance.Design.Placeholder" parent="@style/TextAppearance.AppCompat.Body1">
+    </style>
+    <style name="TextAppearance.Design.Prefix" parent="@style/TextAppearance.AppCompat.Body1">
+    </style>
+    <style name="TextAppearance.Design.Snackbar.Message" parent="@android:style/TextAppearance">
+    </style>
+    <style name="TextAppearance.Design.Suffix" parent="@style/TextAppearance.AppCompat.Body1">
+    </style>
+    <style name="TextAppearance.Design.Tab" parent="@style/TextAppearance.AppCompat.Button">
+        <item name="textAllCaps">true</item>
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.BodyLarge" parent="@style/TextAppearance.AppCompat.Body2">
+        <item name="lineHeight">24sp</item>
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.BodyLarge.Emphasized" parent="@style/TextAppearance.AppCompat.Body2">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.BodyMedium" parent="@style/TextAppearance.AppCompat.Body1">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.BodyMedium.Emphasized" parent="@style/TextAppearance.AppCompat.Body1">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.BodySmall" parent="@style/TextAppearance.AppCompat.Caption">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.BodySmall.Emphasized" parent="@style/TextAppearance.AppCompat.Caption">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.DisplayLarge" parent="@style/TextAppearance.AppCompat.Display3">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.DisplayLarge.Emphasized" parent="@style/TextAppearance.AppCompat.Display3">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.DisplayMedium" parent="@style/TextAppearance.AppCompat.Display2">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.DisplayMedium.Emphasized" parent="@style/TextAppearance.AppCompat.Display2">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.DisplaySmall" parent="@style/TextAppearance.AppCompat.Display1">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.DisplaySmall.Emphasized" parent="@style/TextAppearance.AppCompat.Display1">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.HeadlineLarge" parent="@style/TextAppearance.AppCompat.Display1">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.HeadlineLarge.Emphasized" parent="@style/TextAppearance.AppCompat.Display1">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.HeadlineMedium" parent="@style/TextAppearance.AppCompat.Headline">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.HeadlineMedium.Emphasized" parent="@style/TextAppearance.AppCompat.Headline">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.HeadlineSmall" parent="@style/TextAppearance.AppCompat.Title">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.HeadlineSmall.Emphasized" parent="@style/TextAppearance.AppCompat.Title">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.LabelLarge" parent="@style/TextAppearance.AppCompat.Body1">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.LabelLarge.Emphasized" parent="@style/TextAppearance.AppCompat.Body1">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.LabelMedium" parent="@style/TextAppearance.AppCompat.Caption">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.LabelMedium.Emphasized" parent="@style/TextAppearance.AppCompat.Caption">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.LabelSmall" parent="@style/TextAppearance.AppCompat.Caption">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.LabelSmall.Emphasized" parent="@style/TextAppearance.AppCompat.Caption">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.TitleLarge" parent="@style/TextAppearance.AppCompat.Title">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.TitleLarge.Emphasized" parent="@style/TextAppearance.AppCompat.Title">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.TitleMedium" parent="@style/TextAppearance.AppCompat.Subhead">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.TitleMedium.Emphasized" parent="@style/TextAppearance.AppCompat.Subhead">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.TitleSmall" parent="@style/TextAppearance.AppCompat.Subhead">
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.TitleSmall.Emphasized" parent="@style/TextAppearance.AppCompat.Subhead">
+    </style>
+    <style name="TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="@style/Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item">
+    </style>
+    <style name="TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+    </style>
+    <style name="TextAppearance.Widget.AppCompat.Toolbar.Title" parent="@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Title">
+    </style>
+    <style name="Theme.Design" parent="@style/Theme.AppCompat">
+    </style>
+    <style name="Theme.Design.BottomSheetDialog" parent="@style/Theme.AppCompat.Dialog">
+    </style>
+    <style name="Theme.Design.Light" parent="@style/Theme.AppCompat.Light">
+    </style>
+    <style name="Theme.Design.Light.BottomSheetDialog" parent="@style/Theme.AppCompat.Light.Dialog">
+    </style>
+    <style name="Theme.Design.Light.NoActionBar" parent="@style/Theme.Design.Light">
+    </style>
+    <style name="Theme.Design.NoActionBar" parent="@style/Theme.Design">
+    </style>
+    <style name="ThemeOverlay.AppCompat" parent="@style/Base.ThemeOverlay.AppCompat">
+    </style>
+    <style name="ThemeOverlay.AppCompat.ActionBar" parent="@style/Base.ThemeOverlay.AppCompat.ActionBar">
+    </style>
+    <style name="ThemeOverlay.AppCompat.Dark" parent="@style/Base.ThemeOverlay.AppCompat.Dark">
+    </style>
+    <style name="ThemeOverlay.AppCompat.Dark.ActionBar" parent="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar">
+    </style>
+    <style name="ThemeOverlay.AppCompat.DayNight" parent="@style/ThemeOverlay.AppCompat.Light">
+    </style>
+    <style name="ThemeOverlay.AppCompat.DayNight.ActionBar" parent="@style/ThemeOverlay.AppCompat.DayNight">
+    </style>
+    <style name="ThemeOverlay.AppCompat.Dialog" parent="@style/Base.ThemeOverlay.AppCompat.Dialog">
+    </style>
+    <style name="ThemeOverlay.AppCompat.Dialog.Alert" parent="@style/Base.ThemeOverlay.AppCompat.Dialog.Alert">
+    </style>
+    <style name="ThemeOverlay.AppCompat.Light" parent="@style/Base.ThemeOverlay.AppCompat.Light">
+    </style>
+    <style name="ThemeOverlay.Design.TextInputEditText" parent="">
+    </style>
+    <style name="ThemeOverlay.Material3" parent="@style/ThemeOverlay.MaterialComponents">
+    </style>
+    <style name="ThemeOverlay.Material3.ActionBar" parent="@style/ThemeOverlay.MaterialComponents.ActionBar">
+    </style>
+    <style name="ThemeOverlay.Material3.AutoCompleteTextView" parent="@style/Base.ThemeOverlay.Material3.AutoCompleteTextView">
+    </style>
+    <style name="ThemeOverlay.Material3.AutoCompleteTextView.FilledBox" parent="@style/ThemeOverlay.Material3.AutoCompleteTextView">
+    </style>
+    <style name="ThemeOverlay.Material3.AutoCompleteTextView.FilledBox.Dense" parent="@style/ThemeOverlay.Material3.AutoCompleteTextView.FilledBox">
+    </style>
+    <style name="ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox" parent="@style/ThemeOverlay.Material3.AutoCompleteTextView">
+    </style>
+    <style name="ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox.Dense" parent="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox">
+    </style>
+    <style name="ThemeOverlay.Material3.BottomAppBar" parent="">
+    </style>
+    <style name="ThemeOverlay.Material3.BottomAppBar.Legacy" parent="">
+    </style>
+    <style name="ThemeOverlay.Material3.BottomNavigationView" parent="">
+    </style>
+    <style name="ThemeOverlay.Material3.BottomSheetDialog" parent="@style/Base.ThemeOverlay.Material3.BottomSheetDialog">
+    </style>
+    <style name="ThemeOverlay.Material3.Button" parent="">
+        <item name="colorContainer">?attr/colorPrimary</item>
+        <item name="colorContainerChecked">?attr/colorPrimary</item>
+        <item name="colorContainerUnchecked">?attr/colorPrimary</item>
+        <item name="colorOnContainer">?attr/colorOnPrimary</item>
+        <item name="colorOnContainerChecked">?attr/colorOnPrimary</item>
+        <item name="colorOnContainerUnchecked">?attr/colorOnPrimary</item>
+    </style>
+    <style name="ThemeOverlay.Material3.Button.ElevatedButton" parent="@style/ThemeOverlay.Material3.Button.TextButton">
+    </style>
+    <style name="ThemeOverlay.Material3.Button.IconButton" parent="@style/ThemeOverlay.Material3.Button.TextButton">
+    </style>
+    <style name="ThemeOverlay.Material3.Button.IconButton.Filled" parent="@style/ThemeOverlay.Material3.Button">
+    </style>
+    <style name="ThemeOverlay.Material3.Button.IconButton.Filled.Tonal" parent="@style/ThemeOverlay.Material3.Button.TonalButton">
+    </style>
+    <style name="ThemeOverlay.Material3.Button.TextButton" parent="">
+    </style>
+    <style name="ThemeOverlay.Material3.Button.TextButton.Snackbar" parent="@style/ThemeOverlay.Material3.Button.TextButton">
+    </style>
+    <style name="ThemeOverlay.Material3.Button.TonalButton" parent="">
+    </style>
+    <style name="ThemeOverlay.Material3.Chip" parent="">
+    </style>
+    <style name="ThemeOverlay.Material3.Chip.Assist" parent="">
+    </style>
+    <style name="ThemeOverlay.Material3.Dark" parent="@style/ThemeOverlay.MaterialComponents.Dark">
+    </style>
+    <style name="ThemeOverlay.Material3.Dark.ActionBar" parent="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar">
+    </style>
+    <style name="ThemeOverlay.Material3.DayNight.BottomSheetDialog" parent="@style/ThemeOverlay.Material3.BottomSheetDialog">
+    </style>
+    <style name="ThemeOverlay.Material3.DayNight.SideSheetDialog" parent="@style/ThemeOverlay.Material3.SideSheetDialog">
+    </style>
+    <style name="ThemeOverlay.Material3.Dialog" parent="@style/Base.ThemeOverlay.Material3.Dialog">
+    </style>
+    <style name="ThemeOverlay.Material3.Dialog.Alert" parent="@style/ThemeOverlay.MaterialComponents.Dialog.Alert">
+    </style>
+    <style name="ThemeOverlay.Material3.Dialog.Alert.Framework" parent="@style/ThemeOverlay.MaterialComponents.Dialog.Alert.Framework">
+    </style>
+    <style name="ThemeOverlay.Material3.DockedToolbar" parent="">
+    </style>
+    <style name="ThemeOverlay.Material3.DockedToolbar.Vibrant" parent="@style/ThemeOverlay.Material3.DockedToolbar">
+    </style>
+    <style name="ThemeOverlay.Material3.DynamicColors.Dark" parent="@style/ThemeOverlay.Material3.Dark">
+    </style>
+    <style name="ThemeOverlay.Material3.DynamicColors.DayNight" parent="@style/ThemeOverlay.Material3.DynamicColors.Light">
+    </style>
+    <style name="ThemeOverlay.Material3.DynamicColors.Light" parent="@style/ThemeOverlay.Material3.Light">
+    </style>
+    <style name="ThemeOverlay.Material3.ExtendedFloatingActionButton.Primary" parent="">
+    </style>
+    <style name="ThemeOverlay.Material3.ExtendedFloatingActionButton.Secondary" parent="">
+    </style>
+    <style name="ThemeOverlay.Material3.ExtendedFloatingActionButton.Surface" parent="">
+    </style>
+    <style name="ThemeOverlay.Material3.ExtendedFloatingActionButton.Tertiary" parent="">
+    </style>
+    <style name="ThemeOverlay.Material3.FloatingActionButton.Primary" parent="">
+    </style>
+    <style name="ThemeOverlay.Material3.FloatingActionButton.Secondary" parent="">
+    </style>
+    <style name="ThemeOverlay.Material3.FloatingActionButton.Surface" parent="">
+    </style>
+    <style name="ThemeOverlay.Material3.FloatingActionButton.Tertiary" parent="">
+    </style>
+    <style name="ThemeOverlay.Material3.FloatingToolbar" parent="">
+    </style>
+    <style name="ThemeOverlay.Material3.FloatingToolbar.Vibrant" parent="@style/ThemeOverlay.Material3.FloatingToolbar">
+    </style>
+    <style name="ThemeOverlay.Material3.HarmonizedColors" parent="">
+    </style>
+    <style name="ThemeOverlay.Material3.HarmonizedColors.Empty" parent="">
+    </style>
+    <style name="ThemeOverlay.Material3.Light" parent="@style/ThemeOverlay.MaterialComponents.Light">
+    </style>
+    <style name="ThemeOverlay.Material3.Light.Dialog.Alert.Framework" parent="@style/ThemeOverlay.MaterialComponents.Light.Dialog.Alert.Framework">
+    </style>
+    <style name="ThemeOverlay.Material3.MaterialAlertDialog" parent="@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="materialAlertDialogTitleIconStyle">@style/MaterialAlertDialog.Material3.Title.Icon</item>
+        <item name="materialAlertDialogTitlePanelStyle">@style/MaterialAlertDialog.Material3.Title.Panel</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/MaterialAlertDialog.Material3.Title.Text</item>
+    </style>
+    <style name="ThemeOverlay.Material3.MaterialAlertDialog.Centered" parent="@style/ThemeOverlay.Material3.MaterialAlertDialog">
+    </style>
+    <style name="ThemeOverlay.Material3.MaterialCalendar" parent="@style/ThemeOverlay.Material3.Dialog">
+        <item name="materialCalendarDay">@style/Widget.Material3.MaterialCalendar.DayTextView</item>
+        <item name="materialCalendarDayOfWeekLabel">@style/Widget.Material3.MaterialCalendar.DayOfWeekLabel</item>
+        <item name="materialCalendarHeaderCancelButton">@style/Widget.Material3.MaterialCalendar.HeaderCancelButton</item>
+        <item name="materialCalendarHeaderConfirmButton">@style/Widget.Material3.Button.TextButton</item>
+        <item name="materialCalendarHeaderDivider">@style/Widget.Material3.MaterialCalendar.HeaderDivider</item>
+        <item name="materialCalendarHeaderLayout">@style/Widget.Material3.MaterialCalendar.HeaderLayout</item>
+        <item name="materialCalendarHeaderSelection">@style/Widget.Material3.MaterialCalendar.HeaderSelection</item>
+        <item name="materialCalendarHeaderTitle">@style/Widget.Material3.MaterialCalendar.HeaderTitle</item>
+        <item name="materialCalendarHeaderToggleButton">@style/Widget.Material3.MaterialCalendar.HeaderToggleButton</item>
+        <item name="materialCalendarMonth">@style/Widget.Material3.MaterialCalendar.MonthTextView</item>
+        <item name="materialCalendarMonthNavigationButton">@style/Widget.Material3.MaterialCalendar.MonthNavigationButton</item>
+        <item name="materialCalendarYearNavigationButton">@style/Widget.Material3.MaterialCalendar.YearNavigationButton</item>
+    </style>
+    <style name="ThemeOverlay.Material3.MaterialCalendar.Fullscreen" parent="@style/ThemeOverlay.Material3.MaterialCalendar">
+    </style>
+    <style name="ThemeOverlay.Material3.MaterialCalendar.HeaderCancelButton" parent="@style/ThemeOverlay.Material3.Button.TextButton">
+    </style>
+    <style name="ThemeOverlay.Material3.MaterialTimePicker" parent="@style/ThemeOverlay.Material3.Dialog">
+        <item name="materialClockStyle">@style/Widget.Material3.MaterialTimePicker.Clock</item>
+        <item name="materialDisplayDividerStyle">@style/Widget.Material3.MaterialTimePicker.Display.Divider</item>
+        <item name="materialTimePickerStyle">@style/Widget.Material3.MaterialTimePicker</item>
+        <item name="materialTimePickerTitleStyle">@style/TextAppearance.Material3.MaterialTimePicker.Title</item>
+    </style>
+    <style name="ThemeOverlay.Material3.MaterialTimePicker.Display.TextInputEditText" parent="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox">
+    </style>
+    <style name="ThemeOverlay.Material3.NavigationRailView" parent="">
+    </style>
+    <style name="ThemeOverlay.Material3.NavigationView" parent="">
+    </style>
+    <style name="ThemeOverlay.Material3.PersonalizedColors" parent="">
+    </style>
+    <style name="ThemeOverlay.Material3.Search" parent="">
+    </style>
+    <style name="ThemeOverlay.Material3.SideSheetDialog" parent="@style/Base.ThemeOverlay.Material3.SideSheetDialog">
+    </style>
+    <style name="ThemeOverlay.Material3.Snackbar" parent="">
+    </style>
+    <style name="ThemeOverlay.Material3.SplitButton.IconButton.Filled" parent="@style/ThemeOverlay.Material3.Button.IconButton.Filled">
+    </style>
+    <style name="ThemeOverlay.Material3.SplitButton.IconButton.Filled.Tonal" parent="@style/ThemeOverlay.Material3.Button.IconButton.Filled.Tonal">
+    </style>
+    <style name="ThemeOverlay.Material3.TabLayout" parent="">
+    </style>
+    <style name="ThemeOverlay.Material3.TextInputEditText" parent="@style/Base.ThemeOverlay.Material3.TextInputEditText">
+    </style>
+    <style name="ThemeOverlay.Material3.TextInputEditText.FilledBox" parent="@style/ThemeOverlay.Material3.TextInputEditText">
+    </style>
+    <style name="ThemeOverlay.Material3.TextInputEditText.FilledBox.Dense" parent="@style/ThemeOverlay.Material3.TextInputEditText.FilledBox">
+    </style>
+    <style name="ThemeOverlay.Material3.TextInputEditText.OutlinedBox" parent="@style/ThemeOverlay.Material3.TextInputEditText">
+    </style>
+    <style name="ThemeOverlay.Material3.TextInputEditText.OutlinedBox.Dense" parent="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox">
+    </style>
+    <style name="ThemeOverlay.Material3.Toolbar.Surface" parent="">
+    </style>
+    <style name="ThemeOverlay.MaterialAlertDialog.Material3.Title.Icon" parent="">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents" parent="@style/ThemeOverlay.AppCompat">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.ActionBar" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.ActionBar.Primary" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.ActionBar.Surface" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.AutoCompleteTextView" parent="">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.AutoCompleteTextView.FilledBox" parent="@style/ThemeOverlay.MaterialComponents.AutoCompleteTextView">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.AutoCompleteTextView.FilledBox.Dense" parent="@style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.FilledBox">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.AutoCompleteTextView.OutlinedBox" parent="@style/ThemeOverlay.MaterialComponents.AutoCompleteTextView">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.AutoCompleteTextView.OutlinedBox.Dense" parent="@style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.OutlinedBox">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.BottomAppBar.Primary" parent="">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.BottomAppBar.Surface" parent="">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.BottomSheetDialog" parent="@style/Base.ThemeOverlay.MaterialComponents.Dialog">
+        <item name="paddingBottomSystemWindowInsets">true</item>
+        <item name="paddingLeftSystemWindowInsets">true</item>
+        <item name="paddingRightSystemWindowInsets">true</item>
+        <item name="paddingTopSystemWindowInsets">true</item>
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.Dark" parent="@style/ThemeOverlay.AppCompat.Dark">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.Dark.ActionBar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.DayNight.BottomSheetDialog" parent="@style/ThemeOverlay.MaterialComponents.BottomSheetDialog">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.Dialog" parent="@style/Base.ThemeOverlay.MaterialComponents.Dialog">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.Dialog.Alert" parent="@style/Base.ThemeOverlay.MaterialComponents.Dialog.Alert">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.Dialog.Alert.Framework" parent="@style/Base.ThemeOverlay.MaterialComponents.Dialog.Alert.Framework">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.Light" parent="@style/ThemeOverlay.AppCompat.Light">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.Light.Dialog.Alert.Framework" parent="@style/Base.ThemeOverlay.MaterialComponents.Light.Dialog.Alert.Framework">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.MaterialAlertDialog" parent="@style/Base.ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.MaterialAlertDialog.Centered" parent="@style/Base.ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date" parent="@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="android:buttonBarPositiveButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date.Calendar" parent="@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date">
+        <item name="android:datePickerStyle">@style/MaterialAlertDialog.MaterialComponents.Picker.Date.Calendar</item>
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date.Header.Text" parent="@style/TextAppearance.MaterialComponents.Headline6">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date.Header.Text.Day" parent="@style/TextAppearance.MaterialComponents.Headline1">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date.Spinner" parent="@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.MaterialCalendar" parent="@style/ThemeOverlay.MaterialComponents.Dialog">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.MaterialCalendar.Fullscreen" parent="@style/ThemeOverlay.MaterialComponents.MaterialCalendar">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.TextInputEditText" parent="@style/ThemeOverlay.Design.TextInputEditText">
+        <item name="android:editTextBackground">@null</item>
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.TextInputEditText.FilledBox" parent="@style/ThemeOverlay.MaterialComponents.TextInputEditText">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.TextInputEditText.FilledBox.Dense" parent="@style/ThemeOverlay.MaterialComponents.TextInputEditText.FilledBox">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox" parent="@style/ThemeOverlay.MaterialComponents.TextInputEditText">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox.Dense" parent="@style/ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.TimePicker" parent="@style/ThemeOverlay.MaterialComponents.Dialog">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.TimePicker.Display" parent="">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.TimePicker.Display.TextInputEditText" parent="@style/ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.Toolbar.Popup.Primary" parent="">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.Toolbar.Primary" parent="">
+    </style>
+    <style name="ThemeOverlay.MaterialComponents.Toolbar.Surface" parent="">
+    </style>
+    <style name="Widget.Compat.NotificationActionContainer" parent="">
+    </style>
+    <style name="Widget.Compat.NotificationActionText" parent="">
+    </style>
+    <style name="Widget.Design.AppBarLayout" parent="@android:style/Widget">
+        <item name="android:touchscreenBlocksFocus">true</item>
+    </style>
+    <style name="Widget.Design.BottomNavigationView" parent="">
+        <item name="compatShadowEnabled">true</item>
+        <item name="itemBackground">?attr/selectableItemBackgroundBorderless</item>
+        <item name="itemHorizontalTranslationEnabled">true</item>
+        <item name="itemIconGravity">top</item>
+        <item name="labelVisibilityMode">auto</item>
+        <item name="measureBottomPaddingFromLabelBaseline">false</item>
+    </style>
+    <style name="Widget.Design.BottomSheet.Modal" parent="@android:style/Widget">
+        <item name="android:elevation">@dimen/design_bottom_sheet_modal_elevation</item>
+        <item name="behavior_hideable">true</item>
+        <item name="behavior_peekHeight">auto</item>
+        <item name="behavior_skipCollapsed">false</item>
+    </style>
+    <style name="Widget.Design.CollapsingToolbar" parent="@android:style/Widget">
+        <item name="expandedTitleMargin">32dp</item>
+        <item name="statusBarScrim">?attr/colorPrimaryDark</item>
+    </style>
+    <style name="Widget.Design.FloatingActionButton" parent="@android:style/Widget">
+        <item name="fabSize">auto</item>
+        <item name="hoveredFocusedTranslationZ">@dimen/design_fab_translation_z_hovered_focused</item>
+        <item name="pressedTranslationZ">@dimen/design_fab_translation_z_pressed</item>
+    </style>
+    <style name="Widget.Design.NavigationView" parent="@style/Widget.Design.ScrimInsetsFrameLayout">
+        <item name="drawerLayoutCornerSize">0dp</item>
+        <item name="itemHorizontalPadding">@dimen/design_navigation_item_horizontal_padding</item>
+        <item name="itemIconPadding">@dimen/design_navigation_item_icon_padding</item>
+        <item name="subheaderInsetEnd">?attr/listPreferredItemPaddingEnd</item>
+        <item name="subheaderInsetStart">?attr/listPreferredItemPaddingStart</item>
+    </style>
+    <style name="Widget.Design.ScrimInsetsFrameLayout" parent="">
+        <item name="insetForeground">#0000</item>
+    </style>
+    <style name="Widget.Design.Snackbar" parent="@android:style/Widget">
+        <item name="animationMode">slide</item>
+        <item name="maxActionInlineWidth">@dimen/design_snackbar_action_inline_max_width</item>
+    </style>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabGravity">fill</item>
+        <item name="tabMode">fixed</item>
+    </style>
+    <style name="Widget.Design.TextInputEditText" parent="@style/Widget.AppCompat.EditText">
+    </style>
+    <style name="Widget.Design.TextInputLayout" parent="@android:style/Widget">
+        <item name="passwordToggleContentDescription">@string/password_toggle_content_description</item>
+        <item name="passwordToggleDrawable">@drawable/design_password_eye</item>
+        <item name="passwordToggleTint">@color/design_icon_tint</item>
+    </style>
+    <style name="Widget.Support.CoordinatorLayout" parent="@android:style/Widget">
+        <item name="statusBarBackground">#000000</item>
+    </style>
+</resources>
