@@ -31,23 +31,18 @@ jobs:
 
       - name: Sign Android Release
         run: |
-          # 设置路径
-          BUILD_TOOLS_PATH=$ANDROID_HOME/build-tools/34.0.0
+          # 自动寻找最新的 build-tools 路径
+          BUILD_TOOLS_PATH=$(ls -d $ANDROID_HOME/build-tools/* | tail -1)
+          echo "Using build tools from: $BUILD_TOOLS_PATH"
           
           # 寻找生成的 APK
           UNSIGNED_APK=$(find app/build/outputs/apk/release -name "*.apk" | head -n 1)
           echo "Found APK: $UNSIGNED_APK"
           
-          # 检查密钥库文件是否存在
-          if [ ! -f "release.jks" ]; then
-            echo "Error: release.jks not found in root directory!"
-            exit 1
-          fi
-          
           # 1. Zipalign
           $BUILD_TOOLS_PATH/zipalign -v 4 "$UNSIGNED_APK" app-release-aligned.apk
           
-          # 2. 使用固定的 release.jks 进行签名
+          # 2. 签名
           $BUILD_TOOLS_PATH/apksigner sign --ks release.jks --ks-pass pass:123456 --ks-key-alias release_alias --key-pass pass:123456 --out app-release-signed.apk app-release-aligned.apk
           
           # 3. 验证
