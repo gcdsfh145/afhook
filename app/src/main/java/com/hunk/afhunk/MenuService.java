@@ -4,10 +4,15 @@ import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.Service;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.PixelFormat;
+import android.graphics.Typeface;
+import android.graphics.drawable.GradientDrawable;
 import android.os.Build;
 import android.os.IBinder;
+import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
@@ -16,168 +21,262 @@ import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
-import androidx.core.internal.view.SupportMenu;
 
-/* loaded from: classes.dex */
 public class MenuService extends Service {
-    private View floatingIcon;
-    private WindowManager.LayoutParams iconParams;
-    private View menuView;
     private WindowManager windowManager;
+    private View floatingIcon;
+    private View menuView;
+    private WindowManager.LayoutParams iconParams;
+    private WindowManager.LayoutParams menuParams;
 
-    @Override // android.app.Service
+    @Override
     public IBinder onBind(Intent intent) {
         return null;
     }
 
-    @Override // android.app.Service
+    @Override
     public void onCreate() {
         super.onCreate();
         createNotification();
-        this.windowManager = (WindowManager) getSystemService("window");
+        windowManager = (WindowManager) getSystemService(WINDOW_SERVICE);
         initFloatingIcon();
         initMenuView();
     }
 
     private void createNotification() {
-        if (Build.VERSION.SDK_INT >= 26) {
-            ((NotificationManager) getSystemService(NotificationManager.class)).createNotificationChannel(new NotificationChannel("menu_service", "Service", 2));
-            startForeground(1, new Notification.Builder(this, "menu_service").setContentTitle("Menu Service Running").setSmallIcon(android.R.drawable.ic_menu_info_details).build());
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            String channelId = "menu_service";
+            NotificationChannel channel = new NotificationChannel(channelId, "Service", NotificationManager.IMPORTANCE_LOW);
+            NotificationManager manager = getSystemService(NotificationManager.class);
+            manager.createNotificationChannel(channel);
+            Notification notification = new Notification.Builder(this, channelId)
+                    .setContentTitle("AF HUNK Menu Running")
+                    .setSmallIcon(android.R.drawable.ic_menu_info_details)
+                    .build();
+            startForeground(1, notification);
         }
     }
 
     private void initFloatingIcon() {
-        Button button = new Button(this);
-        button.setText("M");
-        button.setBackgroundColor(Color.parseColor("#CC000000"));
-        button.setTextColor(-1);
-        WindowManager.LayoutParams layoutParams = new WindowManager.LayoutParams(120, 120, Build.VERSION.SDK_INT >= 26 ? 2038 : 2002, 8, -3);
-        this.iconParams = layoutParams;
-        layoutParams.gravity = 51;
-        this.iconParams.x = 100;
-        this.iconParams.y = 100;
-        button.setOnTouchListener(new View.OnTouchListener() { // from class: com.hunk.afhunk.MenuService.1
-            private float initialTouchX;
-            private float initialTouchY;
-            private int initialX;
-            private int initialY;
+        TextView icon = new TextView(this);
+        icon.setText("AF");
+        icon.setGravity(Gravity.CENTER);
+        icon.setTextColor(Color.WHITE);
+        icon.setTextSize(18);
+        icon.setTypeface(Typeface.DEFAULT_BOLD);
+        
+        // 创建圆形背景
+        GradientDrawable gd = new GradientDrawable();
+        gd.setColor(Color.parseColor("#E61A1A1A")); // 90% 不透明黑
+        gd.setCornerRadius(75);
+        gd.setStroke(3, Color.CYAN);
+        icon.setBackground(gd);
 
-            @Override // android.view.View.OnTouchListener
-            public boolean onTouch(View view, MotionEvent motionEvent) {
-                int action = motionEvent.getAction();
-                if (action == 0) {
-                    this.initialX = MenuService.this.iconParams.x;
-                    this.initialY = MenuService.this.iconParams.y;
-                    this.initialTouchX = motionEvent.getRawX();
-                    this.initialTouchY = motionEvent.getRawY();
-                    return true;
+        int type = (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) ?
+                WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY :
+                WindowManager.LayoutParams.TYPE_PHONE;
+
+        iconParams = new WindowManager.LayoutParams(
+                150, 150, type,
+                WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE,
+                PixelFormat.TRANSLUCENT);
+
+        iconParams.gravity = Gravity.TOP | Gravity.LEFT;
+        iconParams.x = 100;
+        iconParams.y = 100;
+
+        icon.setOnTouchListener(new View.OnTouchListener() {
+            private int initialX, initialY;
+            private float initialTouchX, initialTouchY;
+            private long lastDownTime;
+
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                switch (event.getAction()) {
+                    case MotionEvent.ACTION_DOWN:
+                        initialX = iconParams.x;
+                        initialY = iconParams.y;
+                        initialTouchX = event.getRawX();
+                        initialTouchY = event.getRawY();
+                        lastDownTime = System.currentTimeMillis();
+                        return true;
+                    case MotionEvent.ACTION_MOVE:
+                        iconParams.x = initialX + (int) (event.getRawX() - initialTouchX);
+                        iconParams.y = initialY + (int) (event.getRawY() - initialTouchY);
+                        windowManager.updateViewLayout(floatingIcon, iconParams);
+                        return true;
+                    case MotionEvent.ACTION_UP:
+                        if (System.currentTimeMillis() - lastDownTime < 200) {
+                            floatingIcon.setVisibility(View.GONE);
+                            menuView.setVisibility(View.VISIBLE);
+                        }
+                        return true;
                 }
-                if (action == 1) {
-                    if (Math.abs(motionEvent.getRawX() - this.initialTouchX) < 10.0f && Math.abs(motionEvent.getRawY() - this.initialTouchY) < 10.0f) {
-                        MenuService.this.floatingIcon.setVisibility(8);
-                        MenuService.this.menuView.setVisibility(0);
-                    }
-                    return true;
-                }
-                if (action != 2) {
-                    return false;
-                }
-                MenuService.this.iconParams.x = this.initialX + ((int) (motionEvent.getRawX() - this.initialTouchX));
-                MenuService.this.iconParams.y = this.initialY + ((int) (motionEvent.getRawY() - this.initialTouchY));
-                MenuService.this.windowManager.updateViewLayout(MenuService.this.floatingIcon, MenuService.this.iconParams);
-                return true;
+                return false;
             }
         });
-        this.floatingIcon = button;
-        this.windowManager.addView(button, this.iconParams);
+
+        floatingIcon = icon;
+        windowManager.addView(floatingIcon, iconParams);
     }
 
     private void initMenuView() {
-        LinearLayout linearLayout = new LinearLayout(this);
-        linearLayout.setOrientation(1);
-        linearLayout.setBackgroundColor(Color.parseColor("#F2121212"));
-        linearLayout.setPadding(30, 30, 30, 30);
-        TextView textView = new TextView(this);
-        textView.setText("AF HUNK INTERNAL");
-        textView.setTextColor(-16711681);
-        textView.setTextSize(20.0f);
-        textView.setPadding(0, 0, 0, 20);
-        textView.setGravity(17);
-        linearLayout.addView(textView);
+        LinearLayout mainLayout = new LinearLayout(this);
+        mainLayout.setOrientation(LinearLayout.VERTICAL);
+        
+        // 背景圆角
+        GradientDrawable bg = new GradientDrawable();
+        bg.setColor(Color.parseColor("#F2121212")); // 深黑灰色
+        bg.setCornerRadius(30);
+        bg.setStroke(2, Color.parseColor("#333333"));
+        mainLayout.setBackground(bg);
+        mainLayout.setPadding(10, 10, 10, 10);
+
+        // 标题栏
+        TextView title = new TextView(this);
+        title.setText("AF HUNK INTERNAL");
+        title.setTextColor(Color.CYAN);
+        title.setTextSize(18);
+        title.setTypeface(Typeface.DEFAULT_BOLD);
+        title.setGravity(Gravity.CENTER);
+        title.setPadding(0, 20, 0, 20);
+        mainLayout.addView(title);
+
+        // 分割线
+        View line = new View(this);
+        line.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 2));
+        line.setBackgroundColor(Color.parseColor("#333333"));
+        mainLayout.addView(line);
+
         ScrollView scrollView = new ScrollView(this);
-        LinearLayout linearLayout2 = new LinearLayout(this);
-        linearLayout2.setOrientation(1);
-        addToggleButton(linearLayout2, "Unlimited Gold");
-        addToggleButton(linearLayout2, "God Mode");
-        addToggleButton(linearLayout2, "Wallhack");
-        addToggleButton(linearLayout2, "Speed Hack");
-        addToggleButton(linearLayout2, "No Recoil");
-        scrollView.addView(linearLayout2);
-        linearLayout.addView(scrollView);
-        Button button = new Button(this);
-        button.setText("HIDE MENU");
-        button.setBackgroundColor(-12303292);
-        button.setTextColor(-1);
-        button.setOnClickListener(new View.OnClickListener() { // from class: com.hunk.afhunk.MenuService$$ExternalSyntheticLambda1
-            @Override // android.view.View.OnClickListener
-            public final void onClick(View view) {
-                MenuService.this.lambda$initMenuView$0(view);
+        LinearLayout.LayoutParams scrollLp = new LinearLayout.LayoutParams(600, 700);
+        scrollView.setLayoutParams(scrollLp);
+
+        LinearLayout content = new LinearLayout(this);
+        content.setOrientation(LinearLayout.VERTICAL);
+        content.setPadding(20, 20, 20, 20);
+
+        // 功能组
+        addCategory(content, "COMBAT");
+        addToggleButton(content, "Aimbot [Safe]");
+        addToggleButton(content, "Auto Headshot");
+        addToggleButton(content, "No Recoil");
+
+        addCategory(content, "VISUALS");
+        addToggleButton(content, "ESP Line");
+        addToggleButton(content, "ESP Box");
+        addToggleButton(content, "ESP Distance");
+
+        addCategory(content, "MISC");
+        addToggleButton(content, "Speed Hack");
+        addToggleButton(content, "God Mode");
+        addToggleButton(content, "Unlock Skins");
+        
+        scrollView.addView(content);
+        mainLayout.addView(scrollView);
+
+        // 底部隐藏按钮
+        Button hideBtn = new Button(this);
+        hideBtn.setText("HIDE MENU");
+        hideBtn.setTextColor(Color.WHITE);
+        hideBtn.setBackgroundColor(Color.TRANSPARENT);
+        hideBtn.setOnClickListener(v -> {
+            menuView.setVisibility(View.GONE);
+            floatingIcon.setVisibility(View.VISIBLE);
+        });
+        mainLayout.addView(hideBtn);
+
+        int type = (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) ?
+                WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY :
+                WindowManager.LayoutParams.TYPE_PHONE;
+
+        menuParams = new WindowManager.LayoutParams(
+                WindowManager.LayoutParams.WRAP_CONTENT, 
+                WindowManager.LayoutParams.WRAP_CONTENT, 
+                type,
+                WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE,
+                PixelFormat.TRANSLUCENT);
+        
+        menuView = mainLayout;
+        menuView.setVisibility(View.GONE);
+        windowManager.addView(menuView, menuParams);
+
+        // 允许菜单拖动
+        mainLayout.setOnTouchListener(new View.OnTouchListener() {
+            private int initialX, initialY;
+            private float initialTouchX, initialTouchY;
+
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                switch (event.getAction()) {
+                    case MotionEvent.ACTION_DOWN:
+                        initialX = menuParams.x;
+                        initialY = menuParams.y;
+                        initialTouchX = event.getRawX();
+                        initialTouchY = event.getRawY();
+                        return true;
+                    case MotionEvent.ACTION_MOVE:
+                        menuParams.x = initialX + (int) (event.getRawX() - initialTouchX);
+                        menuParams.y = initialY + (int) (event.getRawY() - initialTouchY);
+                        windowManager.updateViewLayout(menuView, menuParams);
+                        return true;
+                }
+                return false;
             }
         });
-        linearLayout.addView(button);
-        WindowManager.LayoutParams layoutParams = new WindowManager.LayoutParams(-2, -2, Build.VERSION.SDK_INT >= 26 ? 2038 : 2002, 32, -3);
-        this.menuView = linearLayout;
-        linearLayout.setVisibility(8);
-        this.windowManager.addView(this.menuView, layoutParams);
     }
 
-    /* JADX INFO: Access modifiers changed from: private */
-    public /* synthetic */ void lambda$initMenuView$0(View view) {
-        this.menuView.setVisibility(8);
-        this.floatingIcon.setVisibility(0);
+    private void addCategory(LinearLayout parent, String name) {
+        TextView cat = new TextView(this);
+        cat.setText("— " + name + " —");
+        cat.setTextColor(Color.GRAY);
+        cat.setTextSize(12);
+        cat.setGravity(Gravity.CENTER);
+        cat.setPadding(0, 15, 0, 15);
+        parent.addView(cat);
     }
 
-    private void addToggleButton(LinearLayout linearLayout, final String str) {
-        final Button button = new Button(this);
-        final boolean[] zArr = {false};
-        button.setText(str + ": [OFF]");
-        button.setTextColor(SupportMenu.CATEGORY_MASK);
-        button.setBackgroundColor(0);
-        button.setAllCaps(false);
-        button.setOnClickListener(new View.OnClickListener() { // from class: com.hunk.afhunk.MenuService$$ExternalSyntheticLambda0
-            @Override // android.view.View.OnClickListener
-            public final void onClick(View view) {
-                MenuService.this.lambda$addToggleButton$1(zArr, button, str, view);
+    private void addToggleButton(LinearLayout parent, String featureName) {
+        LinearLayout row = new LinearLayout(this);
+        row.setOrientation(LinearLayout.HORIZONTAL);
+        row.setGravity(Gravity.CENTER_VERTICAL);
+        row.setPadding(10, 10, 10, 10);
+
+        TextView label = new TextView(this);
+        label.setText(featureName);
+        label.setTextColor(Color.WHITE);
+        label.setTextSize(14);
+        LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1);
+        label.setLayoutParams(lp);
+
+        TextView status = new TextView(this);
+        status.setText("OFF");
+        status.setTextColor(Color.RED);
+        status.setPadding(20, 10, 20, 10);
+        
+        final boolean[] isOn = {false};
+        row.setOnClickListener(v -> {
+            isOn[0] = !isOn[0];
+            if (isOn[0]) {
+                status.setText("ON");
+                status.setTextColor(Color.GREEN);
+                Toast.makeText(this, featureName + " Enabled", Toast.LENGTH_SHORT).show();
+            } else {
+                status.setText("OFF");
+                status.setTextColor(Color.RED);
+                Toast.makeText(this, featureName + " Disabled", Toast.LENGTH_SHORT).show();
             }
         });
-        linearLayout.addView(button);
+
+        row.addView(label);
+        row.addView(status);
+        parent.addView(row);
     }
 
-    /* JADX INFO: Access modifiers changed from: private */
-    public /* synthetic */ void lambda$addToggleButton$1(boolean[] zArr, Button button, String str, View view) {
-        boolean z = zArr[0];
-        zArr[0] = !z;
-        if (!z) {
-            button.setText(str + ": [ON]");
-            button.setTextColor(-16711936);
-            Toast.makeText(this, str + " Enabled", 0).show();
-        } else {
-            button.setText(str + ": [OFF]");
-            button.setTextColor(SupportMenu.CATEGORY_MASK);
-            Toast.makeText(this, str + " Disabled", 0).show();
-        }
-    }
-
-    @Override // android.app.Service
+    @Override
     public void onDestroy() {
         super.onDestroy();
-        View view = this.floatingIcon;
-        if (view != null) {
-            this.windowManager.removeView(view);
-        }
-        View view2 = this.menuView;
-        if (view2 != null) {
-            this.windowManager.removeView(view2);
-        }
+        if (floatingIcon != null) windowManager.removeView(floatingIcon);
+        if (menuView != null) windowManager.removeView(menuView);
     }
 }
